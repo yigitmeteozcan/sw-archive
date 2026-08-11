@@ -1,10 +1,5 @@
 # sw-archive
 
-startups.watch'un 2015–2026 Türkiye ekosistem raporlarındaki sayılar, PDF'lerin
-içinden çıkarılıp tek bir queryable dataset'e dönüştürülmüş hali.
-
-**→ [Canlı dashboard](https://yigitmeteozcan.github.io/sw-archive/)** — sektör ve
-yıl seçip karşılaştırma, tam seri grafiği, paylaşılabilir link.
 
 ## Veri
 
