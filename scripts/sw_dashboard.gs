@@ -192,6 +192,82 @@ var COL = { PERIOD_LABEL: 'C', COMPARABLE: 'D', METRIC: 'E',
 var CTRL = { METRIC: 'B3', SCOPE: 'D3', COMPARABLE: 'F3' };
 var DATA_ROW = 5;   // QUERY sonucunun başlık satırı
 
+// ------------------------------------------------------- locale / ayraçlar
+/**
+ * Formül ayraçlarını çalışma anında belirler.
+ *
+ * Ondalık ayracı virgül olan locale'lerde (tr_TR, de_DE, fr_FR…) Sheets:
+ *   - fonksiyon argümanlarını  ','  yerine  ';'  ile ayırır
+ *   - dizi literalinde {} SÜTUN ayracı ','  yerine  '\'  olur
+ *     (SATIR ayracı ';' olarak KALIR — SPARKLINE seçenekleri bu yüzden
+ *      hem '\' hem ';' içerir)
+ * setFormula() US biçimi kabul etmiyor; bu yüzden formülü locale'e göre
+ * üretiyoruz.
+ *
+ * Locale KODUNDAN çıkarım yapmak güvenilir değil (aynı dil farklı ülkede
+ * farklı ondalık ayracı kullanabilir), o yüzden ondalık ayracını ÖLÇÜYORUZ:
+ * bir hücreye 1.5 yazıp ekranda "1,5" mi "1.5" mi göründüğüne bakıyoruz.
+ */
+function seps_(ss, sh) {
+  var locale = ss.getSpreadsheetLocale();
+  var probe = sh.getRange(sh.getMaxRows(), sh.getMaxColumns());
+  probe.setNumberFormat('0.0');
+  probe.setValue(1.5);
+  SpreadsheetApp.flush();
+  var comma = String(probe.getDisplayValue()).indexOf(',') >= 0;
+  probe.clearContent();
+  probe.clearFormat();
+  return comma
+    ? { arg: ';', arr: '\\', locale: locale, dec: ',' }
+    : { arg: ',', arr: ',',  locale: locale, dec: '.' };
+}
+
+/** Ayraç setini ters çevirir (fallback denemesi için). */
+function flipSeps_(s) {
+  return (s.arg === ',')
+    ? { arg: ';', arr: '\\', locale: s.locale, dec: ',' }
+    : { arg: ',', arr: ',',  locale: s.locale, dec: '.' };
+}
+
+/**
+ * Formülü yazar; hücre hata verirse ters ayraç setiyle bir kez daha dener.
+ * Hata metinleri locale'e göre değişir (#ERROR! / #AD? / #YOK…), bu yüzden
+ * "ilk karakter '#' mi" diye bakıyoruz — geçerli hiçbir değer '#' ile başlamaz.
+ */
+function setFormulaSafe_(range, build, seps) {
+  range.setFormula(build(seps));
+  SpreadsheetApp.flush();
+  if (String(range.getDisplayValue()).charAt(0) !== '#') return seps;
+  var alt = flipSeps_(seps);
+  range.setFormula(build(alt));
+  SpreadsheetApp.flush();
+  return alt;
+}
+
+/** QUERY formülü — argüman ayracı locale'e göre. */
+function queryFormula_(s) {
+  return '=IFERROR(QUERY(latest!$A$2:$Q' + s.arg +
+    '"select ' + COL.CANON + ', sum(' + COL.VALUE + ') where ' +
+    COL.METRIC + " = '\"&$" + CTRL.METRIC.charAt(0) + '$3&"\' and ' +
+    COL.SCOPE + " = '\"&$" + CTRL.SCOPE.charAt(0) + '$3&"\' and ' +
+    COL.COMPARABLE + " = '\"&$" + CTRL.COMPARABLE.charAt(0) + '$3&"\' ' +
+    'group by ' + COL.CANON + ' pivot ' + COL.PERIOD_LABEL + '"' + s.arg + '0)' +
+    s.arg + '"Seçime uyan veri yok")';
+}
+
+/**
+ * SPARKLINE formülü. Seçenek dizisi 4 satır × 2 kolonluk bir literal:
+ * kolonlar s.arr ile, satırlar HER ZAMAN ';' ile ayrılır.
+ */
+function sparkFormula_(s, row, lastLetter) {
+  var o = '{"charttype"' + s.arr + '"line"' +
+          ';"linewidth"' + s.arr + '2' +
+          ';"color"' + s.arr + '"' + ACCENT + '"' +
+          ';"empty"' + s.arr + '"ignore"}';
+  return '=IFERROR(SPARKLINE(B' + row + ':' + lastLetter + row +
+         s.arg + o + ')' + s.arg + '"")';
+}
+
 function buildDashboard() {
   var ss = SpreadsheetApp.getActive();
   var src = ss.getSheetByName('latest');
@@ -239,15 +315,8 @@ function buildDashboard() {
 
   // --- QUERY ------------------------------------------------------------
   // satır = dim_value_canon (G), kolon = period_label (C), değer = sum(value) (K)
-  var f = '=IFERROR(QUERY(latest!$A$2:$Q,' +
-          '"select ' + COL.CANON + ', sum(' + COL.VALUE + ') where ' +
-          COL.METRIC + " = '\"&$" + CTRL.METRIC.charAt(0) + '$3&"\' and ' +
-          COL.SCOPE + " = '\"&$" + CTRL.SCOPE.charAt(0) + '$3&"\' and ' +
-          COL.COMPARABLE + " = '\"&$" + CTRL.COMPARABLE.charAt(0) + '$3&"\' ' +
-          'group by ' + COL.CANON + ' pivot ' + COL.PERIOD_LABEL + '",0),' +
-          '"Seçime uyan veri yok")';
-  sh.getRange(DATA_ROW, 1).setFormula(f);
-  SpreadsheetApp.flush();
+  var seps = seps_(ss, sh);
+  seps = setFormulaSafe_(sh.getRange(DATA_ROW, 1), queryFormula_, seps);
 
   // --- QUERY çıktısının boyutunu ölç ------------------------------------
   var span = spanOf_(sh, DATA_ROW);
@@ -292,11 +361,22 @@ function buildDashboard() {
     .setFontWeight('bold').setFontColor(INK).setFontSize(10);
   var sparks = [];
   for (var r = firstData; r <= lastData; r++) {
-    sparks.push(['=IFERROR(SPARKLINE(B' + r + ':' + lastLetter + r +
-      ',{"charttype","line";"linewidth",2;"color","' + ACCENT +
-      '";"empty","ignore"}),"")']);
+    sparks.push([sparkFormula_(seps, r, lastLetter)]);
   }
-  sh.getRange(firstData, sparkCol, sparks.length, 1).setFormulas(sparks);
+  var sparkRange = sh.getRange(firstData, sparkCol, sparks.length, 1);
+  sparkRange.setFormulas(sparks);
+  SpreadsheetApp.flush();
+  // QUERY ayraçları tuttuysa SPARKLINE'ın da tutması beklenir; yine de
+  // dizi literali ayracı ayrı bir kural olduğu için tek tek doğruluyoruz.
+  if (String(sh.getRange(firstData, sparkCol).getDisplayValue()).charAt(0) === '#') {
+    var alt = flipSeps_(seps);
+    var retry = [];
+    for (var r2 = firstData; r2 <= lastData; r2++) {
+      retry.push([sparkFormula_(alt, r2, lastLetter)]);
+    }
+    sparkRange.setFormulas(retry);
+    SpreadsheetApp.flush();
+  }
 
   // --- uyarı kutusu -----------------------------------------------------
   var wRow = lastData + 2;
@@ -311,7 +391,8 @@ function buildDashboard() {
   sh.setRowHeight(wRow, 44);
 
   finish_(sh, sparkCol);
-  SpreadsheetApp.getActive().toast('Dashboard kuruldu', 'sw-archive', 5);
+  ss.toast('Dashboard kuruldu · locale ' + seps.locale +
+           ' · ayraç "' + seps.arg + '"', 'sw-archive', 6);
 }
 
 // --------------------------------------------------------------- yardım

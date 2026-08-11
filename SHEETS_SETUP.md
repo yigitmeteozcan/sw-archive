@@ -145,6 +145,35 @@ adet metriğine geçtiğinde biçimi elle değiştirmen gerekmez.
 olmadığı için tek satır gelir ve satır etiketi boştur — ilk kolon başlığı
 otomatik `Toplam (kırılımsız)` olur. Vertical metriklerinde başlık `Vertical`.
 
+**Locale otomatik algılanır — dosyanı en-US'e çevirme.** Türkçe gibi ondalık
+ayracı virgül olan locale'lerde Sheets formül sözdizimi değişir ve script
+bunu kendi hallediyor:
+
+| | en-US | tr-TR |
+|---|---|---|
+| fonksiyon argümanı | `QUERY(A;B;C)` → `,` | `;` |
+| dizi `{}` **sütun** ayracı | `,` | `\` |
+| dizi `{}` **satır** ayracı | `;` | `;` (değişmez) |
+
+Yani SPARKLINE seçenekleri Türkçe locale'de
+`{"charttype"\"line";"linewidth"\2;…}` olur — hem `\` hem `;` bir arada.
+QUERY dizesinin **içi** (`select G, sum(K) where …`) locale'den etkilenmez,
+virgülleri korunur; orası Sheets değil Visualization Query dilidir.
+
+Algılama locale koduna değil, ölçüme dayanır: script bir hücreye `1.5` yazıp
+ekranda `1,5` mi `1.5` mi göründüğüne bakar (aynı dil farklı ülkede farklı
+ondalık ayracı kullanabiliyor). Formül yazıldıktan sonra hücre hata veriyorsa
+ters ayraç setiyle bir kez daha dener. Kurulum bittiğinde alttaki bildirimde
+algılanan locale ve kullanılan ayraç yazar.
+
+**Dosyayı en-US locale'e çevirmeni önermiyorum.** Sorunu çözerdi ama bedeli
+var: *Dosya → Ayarlar → Yerel ayar* tüm dosyayı etkiler — mevcut COMPARE ve
+dashboard sekmelerindeki sayı/tarih gösterimi değişir (`1.234,56` →
+`1,234.56`) ve elle formül yazarken artık `;` değil `,` kullanman gerekir.
+Arayüz dili Google hesabı ayarı olduğu için Türkçe kalır, ama veri
+biçimlendirmesi tüm dosyada değişir. Script locale-farkında olduğuna göre bu
+takası yapmaya gerek yok.
+
 **Tarih satır 2'de sync anını gösterir**, dashboard kurulum anını değil.
 Sync ile dashboard arası bir fark olursa "Dashboard'u yeniden kur" ile tazele.
 (Sync, kural gereği DASHBOARD'a yazamadığı için tarihi kendi güncelleyemiyor.)
@@ -187,3 +216,4 @@ Sonra Sheets'te **Verileri güncelle**. Push edilmemiş değişiklik yansımaz.
 | `latest sekmesi boş` | Dashboard'dan önce "Verileri güncelle" çalıştır. |
 | Tabloda `Seçime uyan veri yok` | Dropdown kombinasyonunda kayıt yok (ör. `total_deal_size` + `ex_getir_bigg` + kısmi dönem). Başka kombinasyon seç. |
 | Sparkline'lar boş | O satırın serisinde tek nokta var; SPARKLINE en az iki nokta ister. |
+| `Formül ayrıştırma hatası` / `#ERROR!` | Locale ayracı sorunu. Script otomatik algılayıp ters ayraçla yeniden dener; yine de olursa bildirimdeki locale bilgisiyle birlikte haber ver. Dosyanın yerel ayarını **değiştirme** — bkz. yukarıdaki locale bölümü. |
