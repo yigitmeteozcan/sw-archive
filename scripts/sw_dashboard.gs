@@ -55,6 +55,7 @@ function onOpen() {
     .addItem('Dashboard\'u yeniden kur', 'buildDashboard')
     .addSeparator()
     .addItem('Bağlantıyı test et', 'testConnection')
+    .addItem('QUERY teşhisi', 'diagnose')
     .addToUi();
 }
 
@@ -328,10 +329,14 @@ function buildDashboard() {
   var firstData = DATA_ROW + 1, lastData = DATA_ROW + span.rows;
 
   // --- başlıklar / hizalama ---------------------------------------------
+  // Kolon A başlığı DATA_ROW'un BİR ÜSTÜNE yazılır, içine DEĞİL.
+  // A5 dizi formülünün çapa hücresidir; oraya setValue yapmak formülü ve
+  // yayılan tüm sonucu siler (tam olarak bu hata yaşandı).
   // Headline metriklerde dim_value_canon boştur → tek satırlık toplam serisi.
   var chosen = String(sh.getRange(CTRL.METRIC).getValue());
-  sh.getRange(DATA_ROW, 1).setValue(
-    chosen.indexOf('by_vertical') >= 0 ? 'Vertical' : 'Toplam (kırılımsız)');
+  sh.getRange(DATA_ROW - 1, 1).setValue(
+    chosen.indexOf('by_vertical') >= 0 ? 'Vertical' : 'Toplam (kırılımsız)')
+    .setFontSize(10).setFontWeight('bold').setFontColor(MUTED);
   sh.getRange(DATA_ROW, 1, 1, span.cols)
     .setFontWeight('bold').setFontColor(INK)
     .setBorder(null, null, true, null, null, null, RULE,
@@ -417,7 +422,8 @@ function finish_(sh, lastCol) {
     if (sh.getColumnWidth(c2) < 78) sh.setColumnWidth(c2, 78);
   }
   sh.setRowHeight(2, 18);
-  sh.setRowHeight(4, 10);                          // beyaz alan
+  sh.setRowHeight(3, 26);
+  sh.setRowHeight(DATA_ROW - 1, 22);               // kolon A başlığı + boşluk
 }
 
 function readControls_(sh) {
@@ -437,7 +443,9 @@ function pick_(prev, list, fallback) {
 function dropdown_(sh, a1, list, value) {
   var rule = SpreadsheetApp.newDataValidation()
     .requireValueInList(list, true).setAllowInvalid(false).build();
-  sh.getRange(a1).setDataValidation(rule).setValue(value);
+  // '@' ÖNCE: setValue("TRUE") biçimsiz hücrede boolean TRUE'ya dönüşür ve
+  // QUERY'deki  D = 'TRUE'  metin karşılaştırması tutmaz.
+  sh.getRange(a1).setNumberFormat('@').setDataValidation(rule).setValue(value);
 }
 
 function uniqueCol_(src, letter) {
@@ -475,6 +483,104 @@ function spanOf_(sh, headerRow) {
     rows = r + 1;
   }
   return { cols: cols, rows: rows };
+}
+
+// ---------------------------------------------------------------- teşhis
+/**
+ * QUERY neden boş dönüyor? Tahmin etmeden ölçer:
+ *   1. latest'teki gerçek değerler + tipleri + hücre biçimleri
+ *   2. DASHBOARD dropdown değerleri + tipleri
+ *   3. ikisinin birebir eşleşip eşleşmediği
+ *   4. her koşulu TEK TEK QUERY'ye sokup kaç satır döndüğü
+ * Yalnız DASHBOARD'a (geçici hücrelere) yazar, sonra temizler.
+ */
+function diagnose() {
+  var ss = SpreadsheetApp.getActive();
+  var src = ss.getSheetByName('latest');
+  var sh = ss.getSheetByName(DASH_TAB);
+  if (!src) { SpreadsheetApp.getUi().alert('latest sekmesi yok.'); return; }
+  if (!sh) { SpreadsheetApp.getUi().alert('DASHBOARD yok — önce kur.'); return; }
+
+  var hdr = src.getRange(1, 1, 1, src.getLastColumn()).getValues()[0];
+  var out = ['latest: ' + (src.getLastRow() - 1) + ' veri satırı', ''];
+
+  // 1) latest'te örnek bir veri satırı (2. satır = ilk veri satırı)
+  out.push('1) latest 2. satır (ilk veri satırı) — gerçek değerler');
+  ['C', 'D', 'E', 'G', 'I', 'K'].forEach(function (L) {
+    var i = L.charCodeAt(0) - 65;
+    var c = src.getRange(2, i + 1);
+    var v = c.getValue();
+    out.push('   ' + L + '2  ' + pad_(hdr[i], 17) + ' = ' + JSON.stringify(v) +
+             '   typeof=' + (typeof v) + '   biçim=' + c.getNumberFormat());
+  });
+
+  // 2) dropdown değerleri
+  out.push('', '2) DASHBOARD kontrolleri');
+  var ctrls = [[CTRL.METRIC, 'metric', COL.METRIC],
+               [CTRL.SCOPE, 'scope', COL.SCOPE],
+               [CTRL.COMPARABLE, 'is_comparable_fy', COL.COMPARABLE]];
+  var picked = {};
+  ctrls.forEach(function (t) {
+    var c = sh.getRange(t[0]);
+    var v = c.getValue();
+    picked[t[0]] = v;
+    out.push('   ' + t[0] + '  ' + pad_(t[1], 17) + ' = ' + JSON.stringify(v) +
+             '   typeof=' + (typeof v) + '   biçim=' + c.getNumberFormat());
+  });
+
+  // 3) birebir eşleşme var mı
+  out.push('', '3) eşleşme (dropdown değeri latest kolonunda var mı)');
+  ctrls.forEach(function (t) {
+    var list = uniqueCol_(src, t[2]);
+    var v = picked[t[0]];
+    var exact = list.indexOf(String(v)) >= 0;
+    out.push('   ' + pad_(t[1], 17) + (exact ? 'EŞLEŞTİ' : 'EŞLEŞMEDİ') +
+             '   latest: [' + list.slice(0, 4).join(', ') +
+             (list.length > 4 ? ', …' : '') + ']');
+    if (!exact) out.push('        seçili=' + JSON.stringify(String(v)));
+  });
+
+  // 4) koşulları TEK TEK say
+  out.push('', '4) koşul bazlı satır sayısı (QUERY ile ölçüldü)');
+  var seps = seps_(ss, sh);
+  var conds = [
+    ['koşulsuz (tüm satırlar)', ''],
+    ['yalnız metric',      COL.METRIC + " = '" + picked[CTRL.METRIC] + "'"],
+    ['yalnız scope',       COL.SCOPE + " = '" + picked[CTRL.SCOPE] + "'"],
+    ['yalnız comparable',  COL.COMPARABLE + " = '" + picked[CTRL.COMPARABLE] + "'"],
+    ['üçü birden',
+      COL.METRIC + " = '" + picked[CTRL.METRIC] + "' and " +
+      COL.SCOPE + " = '" + picked[CTRL.SCOPE] + "' and " +
+      COL.COMPARABLE + " = '" + picked[CTRL.COMPARABLE] + "'"]
+  ];
+  var row0 = sh.getMaxRows() - conds.length - 1;
+  var col0 = sh.getMaxColumns();
+  for (var i = 0; i < conds.length; i++) {
+    var where = conds[i][1] ? ' where ' + conds[i][1] : '';
+    var f = '=IFERROR(COUNTA(QUERY(latest!$A$2:$Q' + seps.arg +
+            '"select ' + COL.CANON + where + '"' + seps.arg + '0))' +
+            seps.arg + '0)';
+    sh.getRange(row0 + i, col0).setFormula(f);
+  }
+  SpreadsheetApp.flush();
+  for (var j = 0; j < conds.length; j++) {
+    out.push('   ' + pad_(conds[j][0], 26) +
+             sh.getRange(row0 + j, col0).getDisplayValue() + ' satır');
+  }
+  sh.getRange(row0, col0, conds.length, 1).clearContent();
+
+  out.push('', 'locale=' + seps.locale + '  ayraç="' + seps.arg +
+           '"  dizi="' + seps.arr + '"');
+  var text = out.join('\n');
+  Logger.log(text);
+  SpreadsheetApp.getUi().alert('QUERY teşhisi', text,
+                               SpreadsheetApp.getUi().ButtonSet.OK);
+}
+
+function pad_(s, n) {
+  s = String(s);
+  while (s.length < n) s += ' ';
+  return s;
 }
 
 function colLetter_(n) {
