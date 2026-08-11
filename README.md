@@ -1,7 +1,6 @@
 # sw-archive
 
-startups.watch'un 2015–2026 Türkiye ekosistem raporlarını tek bir queryable
-dataset'e çeviriyoruz. Kurallar ve şema: [CLAUDE.md](CLAUDE.md).
+
 
 ## Katmanlar
 
