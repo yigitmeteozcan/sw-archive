@@ -76,6 +76,31 @@ header{margin-bottom:22px}
   color:var(--accent);cursor:pointer;padding:4px 6px;border-radius:6px;
 }
 .mini:hover{background:var(--accent-soft)}
+.info-btn{
+  appearance:none;border:1px solid var(--line);background:var(--surface);
+  color:var(--muted);font:inherit;font-size:11px;font-weight:700;cursor:pointer;
+  width:17px;height:17px;border-radius:50%;line-height:1;padding:0;margin-left:6px;
+  vertical-align:1px;
+}
+.info-btn:hover,.info-btn[aria-expanded=true]{border-color:var(--accent);color:var(--accent)}
+.explain{
+  background:var(--page);border-radius:10px;padding:14px 16px;margin:14px 0 0;
+  font-size:13px;line-height:1.65;color:var(--ink-2);
+}
+.explain[hidden]{display:none}
+.explain h3{font-size:13px;font-weight:650;color:var(--ink);margin:0 0 8px}
+.explain p{margin:0 0 9px}
+.explain p:last-child{margin-bottom:0}
+.explain b{color:var(--ink);font-weight:650}
+.src-tbl{width:100%;border-collapse:collapse;font-size:12.5px;margin:4px 0 0}
+.src-tbl td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left;
+  white-space:normal;color:var(--ink-2);font-variant-numeric:normal}
+.src-tbl td:first-child{position:static;background:none;font-weight:600;color:var(--ink);
+  white-space:nowrap;width:1%}
+.src-tbl td:last-child{text-align:right;white-space:nowrap;color:var(--muted)}
+.src-tbl tr:last-child td{border-bottom:0}
+.explain .lim{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);
+  padding-top:9px;margin-top:11px}
 .grp-head{display:flex;align-items:baseline;gap:4px;margin-bottom:8px}
 .grp-head label{margin:0}
 .vscroll{max-height:154px;overflow-y:auto;padding-right:4px}
@@ -163,6 +188,7 @@ footer a{color:var(--accent)}
   <h1>Turkish Startup Ecosystem</h1>
   <p class="sub">startups.watch 2015–2026 raporlarından çıkarılmış, doğrulanmış ekosistem verisi.</p>
   <p class="prov" id="prov"></p>
+  <div class="explain" id="src-explain" hidden></div>
 </header>
 
 <section class="card">
@@ -173,7 +199,9 @@ footer a{color:var(--accent)}
       <div class="seg" role="group" aria-labelledby="lab-m" id="seg-metric"></div>
     </div>
     <div class="grp">
-      <label id="lab-s">Kapsam</label>
+      <label id="lab-s">Kapsam<button class="info-btn" id="scope-info"
+        aria-expanded="false" aria-controls="scope-explain"
+        title="Bu filtre neden var?">i</button></label>
       <div class="seg" role="group" aria-labelledby="lab-s" id="seg-scope"></div>
     </div>
     <div class="grp" style="flex:1 1 320px">
@@ -193,6 +221,7 @@ footer a{color:var(--accent)}
       <div class="chips vscroll" id="chips-vert" role="group" aria-labelledby="lab-v"></div>
     </div>
   </div>
+  <div class="explain" id="scope-explain" hidden></div>
 </section>
 
 <div id="notices"></div>
@@ -364,6 +393,89 @@ function sortPeriod(a,b){
   return ya-yb || (PR[a.slice(5)]||9)-(PR[b.slice(5)]||9);
 }
 
+/* ------- "Getir & BiGG hariç" neden var: rakamlar VERİDEN hesaplanır ------
+   Sabit sayı yazmak veri güncellendiğinde açıklamayı yalancı yapardı. */
+function scopeGap(metric){
+  const best={y:null,all:0,ex:0,pct:0};
+  DATA.periods.filter(p=>p.fy).forEach(p=>{
+    const a=IDX.get(key(metric,"all","__total__",p.id));
+    const e=IDX.get(key(metric,"ex_getir_bigg","__total__",p.id));
+    if(!a||!e||!a.val) return;
+    const pct=100*(a.val-e.val)/a.val;
+    if(pct>best.pct){ best.y=p.id; best.all=a.val; best.ex=e.val; best.pct=pct; }
+  });
+  return best.y?best:null;
+}
+function renderExplain(){
+  const host=$("#scope-explain");
+  const sz=scopeGap("size"), ct=scopeGap("count");
+  host.textContent="";
+  const h=document.createElement("h3");
+  h.textContent="“Getir & BiGG hariç” ne demek?";
+  host.appendChild(h);
+  const add=(nodes)=>{const p=document.createElement("p");
+    nodes.forEach(n=>p.appendChild(typeof n==="string"?document.createTextNode(n):n));
+    host.appendChild(p);return p;};
+  const b=(t)=>{const e=document.createElement("b");e.textContent=t;return e;};
+
+  add(["İki yapısal etken ekosistem serisini çarpıtıyor. Bu filtre ikisini de " +
+       "çıkarıp altta yatan eğilimi gösteriyor — ve ikisi ",
+       b("farklı metriği farklı dönemde"), " bozuyor."]);
+  if(sz) add([b("Getir"), " 2021'den itibaren küresel büyüme turlarında " +
+       "milyarlarca dolar topladı; tek şirket olarak yıllık ",
+       b("tutara"), " hâkim oluyor. En belirgin yıl "+sz.y+": tüm ekosistem " +
+       fmt(sz.all,"size")+", Getir & BiGG hariç "+fmt(sz.ex,"size")+
+       " — yayınlanan tutarın %"+sz.pct.toFixed(0)+"'i bu iki kalemden."]);
+  if(ct) add([b("TÜBİTAK BiGG"), " hibe programı pre-seed fona dönüştü ve " +
+       "yüzlerce küçük yatırım yapmaya başladı. Bu tutarı değil ",
+       b("deal sayısını"), " şişiriyor. En belirgin yıl "+ct.y+": "+
+       Math.round(ct.all)+" deal görünürken hariç tutulduğunda "+
+       Math.round(ct.ex)+" — aradaki fark %"+ct.pct.toFixed(0)+"."]);
+  add(["Yıllar arası trend karşılaştırması yapıyorsan “Getir & BiGG hariç” " +
+       "daha dürüst bir taban verir. Ekosistemin gerçekte ne kadar para " +
+       "çektiğini soruyorsan “Tümü” doğru olan."]);
+  const lim=document.createElement("p");
+  lim.className="lim";
+  lim.textContent="Sınır: startups.watch bu kapsamda yalnız ekosistem toplamını "+
+    "yayınlıyor — sektör kırılımı yok. Sektör seçiliyken bu kapsam boş görünür.";
+  host.appendChild(lim);
+}
+
+/* ---- hangi startups.watch dosyasından ne alındı (facts.csv'den türetilir) --- */
+function renderSources(){
+  const host=$("#src-explain"); host.textContent="";
+  const h=document.createElement("h3");
+  h.textContent="Veri hangi startups.watch raporlarından geliyor?";
+  host.appendChild(h);
+  const p=document.createElement("p");
+  p.textContent="Her sayı, aşağıdaki PDF'lerin belirtilen sayfasındaki grafik ya da "+
+    "tablodan okundu. Başka hiçbir kaynak kullanılmadı; tahmin veya "+
+    "enterpolasyon yok.";
+  host.appendChild(p);
+  const t=document.createElement("table"); t.className="src-tbl";
+  (DATA.sources||[]).forEach(src=>{
+    src.pages.forEach((pg,i)=>{
+      const tr=document.createElement("tr");
+      const c1=document.createElement("td");
+      c1.textContent=i===0?src.label:"";
+      const c2=document.createElement("td");
+      c2.textContent="s."+pg.p+" — "+pg.what;
+      const c3=document.createElement("td");
+      c3.textContent=pg.rows+" kayıt";
+      tr.appendChild(c1);tr.appendChild(c2);tr.appendChild(c3);
+      t.appendChild(tr);
+    });
+  });
+  host.appendChild(t);
+  const lim=document.createElement("p");
+  lim.className="lim";
+  const n=(DATA.sources||[]).length;
+  lim.textContent=n+" rapor · "+DATA.counts.facts+" kayıt. Aynı yılın farklı "+
+    "raporlardaki değerleri ayrı ayrı saklanır; tabloda her hücre en güncel "+
+    "vintage'ı gösterir, hangi rapordan geldiği hücrenin üzerine gelince yazar.";
+  host.appendChild(lim);
+}
+
 /* ---------------- uyarılar ---------------- */
 function renderNotices(){
   const host=$("#notices"); host.textContent="";
@@ -375,6 +487,11 @@ function renderNotices(){
     d.appendChild(document.createTextNode(
       "startups.watch “"+sc.label+"” için yalnız ekosistem toplamını veriyor; "+
       "sektör satırları boş görünür. Sektör karşılaştırması için kapsamı “Tümü” yapın."));
+    const more=document.createElement("button");
+    more.className="mini"; more.id="scope-info"; more.setAttribute("aria-expanded","false");
+    more.textContent="bu filtre neden var?";
+    more.style.marginLeft="4px";
+    d.appendChild(more);
     host.appendChild(d);
   }
 }
@@ -655,6 +772,20 @@ function defaults(){
 }
 
 document.addEventListener("click",(e)=>{
+  if(e.target.id==="src-info"){
+    const box=$("#src-explain"), open=box.hasAttribute("hidden");
+    if(open){ renderSources(); box.removeAttribute("hidden"); }
+    else box.setAttribute("hidden","");
+    e.target.setAttribute("aria-expanded",String(open));
+    return;
+  }
+  if(e.target.id==="scope-info"){
+    const box=$("#scope-explain"), open=box.hasAttribute("hidden");
+    if(open){ renderExplain(); box.removeAttribute("hidden"); }
+    else box.setAttribute("hidden","");
+    e.target.setAttribute("aria-expanded",String(open));
+    return;
+  }
   const a=e.target.dataset&&e.target.dataset.act; if(!a) return;
   if(a==="y-fy") state.years=DATA.periods.filter(p=>p.fy).map(p=>p.id);
   if(a==="y-clear") state.years=[];
@@ -678,6 +809,10 @@ fetch("data/data.json").then(r=>r.json()).then(d=>{
   p.appendChild(document.createTextNode(
     " · "+d.counts.verticals+" sektör · "+d.counts.revisions+" vintage revizyonu"+
     " · her sayı PDF metin katmanı + görsel kontrol ile iki kez doğrulandı"));
+  const sb=document.createElement("button");
+  sb.className="info-btn"; sb.id="src-info"; sb.setAttribute("aria-expanded","false");
+  sb.title="Hangi raporlardan geliyor?"; sb.textContent="i";
+  p.appendChild(sb);
   $("#foot").textContent=
     "Veri "+d.generated_utc+" UTC'de üretildi"+(d.commit?" ("+d.commit+")":"")+
     ". Kaynak: startups.watch yıllık ve çeyreklik raporları. "+

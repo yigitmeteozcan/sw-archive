@@ -179,7 +179,41 @@ def main():
         has_v = any(v != TOTAL_ID for v in avail.get(("size", sid), ()))
         scope_meta.append({"id": sid, "label": label, "verticals": has_v})
 
+    # --- kaynak dökümü: hangi startups.watch raporunun hangi sayfası -------
+    WHAT = {
+        ("total_deal_count", "total_deal_size"): "Yıllık toplam — tutar + deal sayısı",
+        ("total_deal_count",): "Yıllık toplam — deal sayısı",
+        ("total_deal_size",): "Yıllık toplam — tutar",
+        ("funding_by_vertical_size",): "Sektör kırılımı — tutar",
+        ("funding_by_vertical_count",): "Sektör kırılımı — deal sayısı",
+        ("funding_by_vertical_count", "funding_by_vertical_size"):
+            "Sektör kırılımı — tutar + deal sayısı",
+    }
+    def rep_label(f):
+        b = f.replace(".pdf", "")
+        if "q" in b:
+            y, q = b.split("q")
+            return f"{y} Q{q} çeyreklik raporu"
+        return f"{b} yıllık raporu"
+
+    pages = defaultdict(lambda: {"rows": 0, "metrics": set(), "scopes": set()})
+    for r in facts:
+        k = (r["source_file"], int(r["page"]))
+        pages[k]["rows"] += 1
+        pages[k]["metrics"].add(r["metric"])
+        pages[k]["scopes"].add(r["scope"])
+    srcs = defaultdict(lambda: {"pages": [], "rows": 0})
+    for (f, pg), v in sorted(pages.items()):
+        what = WHAT.get(tuple(sorted(v["metrics"])), ", ".join(sorted(v["metrics"])))
+        if v["scopes"] == {"ex_getir_bigg"}:
+            what += " (Getir & BiGG hariç)"
+        srcs[f]["pages"].append({"p": pg, "rows": v["rows"], "what": what})
+        srcs[f]["rows"] += v["rows"]
+    sources = [{"file": f, "label": rep_label(f), "rows": d["rows"], "pages": d["pages"]}
+               for f, d in sorted(srcs.items())]
+
     out = {
+        "sources": sources,
         "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
         "commit": git_commit(),
         "counts": {"facts": len(facts), "latest": len(latest),
