@@ -70,6 +70,9 @@ header{margin-bottom:22px}
 .chip[aria-pressed=true]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
 .chip .dot{width:8px;height:8px;border-radius:50%;flex:none}
 .chip.partial{border-style:dashed}
+.chip.nodata{opacity:.45}
+.chip.nodata[aria-pressed=true]{opacity:1;background:var(--warn-bg);
+  border-color:#e0c98a;color:var(--warn-ink)}
 .chip:disabled{opacity:.38;cursor:not-allowed}
 .mini{
   appearance:none;border:0;background:none;font:inherit;font-size:12.5px;
@@ -330,6 +333,17 @@ function writeURL(){
   history.replaceState(null,"","?"+q.toString());
 }
 
+/* Bu dönemde sektör kırılımı YAYINLANMIŞ mı? startups.watch sektör
+   serilerini 2018'den başlatıyor; 2010-2017'de yalnız headline toplam var.
+   Site bunu göstermezse kullanıcı tire duvarı görüp veriyi eksik sanıyor. */
+function periodHasVerticals(pid){
+  for(const r of DATA.rows){
+    if(r.m===state.m&&r.s===state.s&&r.p===pid&&r.v!=="__total__") return true;
+  }
+  return false;
+}
+const realVerts=()=>state.verts.filter(v=>v!=="__total__");
+
 /* ---------------- kontroller ---------------- */
 function seg(host,items,cur,onPick,disabledFn){
   host.textContent="";
@@ -366,10 +380,17 @@ function renderControls(){
   const yh=$("#chips-year"); yh.textContent="";
   DATA.periods.forEach(p=>{
     const on=state.years.includes(p.id);
-    yh.appendChild(chip(p.id,on,()=>{
+    const hasV=periodHasVerticals(p.id);
+    const t=[];
+    if(!p.fy) t.push("Kısmi dönem — tamamlanmış yıl değil");
+    if(!hasV) t.push("Bu yıl için sektör kırılımı yayınlanmamış — "+
+                     "yalnız ekosistem toplamı var");
+    const c=chip(p.id,on,()=>{
       state.years=on?state.years.filter(x=>x!==p.id):[...state.years,p.id];
       state.years.sort(sortPeriod); sync();
-    },{partial:!p.fy,title:p.fy?"":"Kısmi dönem — tamamlanmış yıl değil"}));
+    },{partial:!p.fy,title:t.join(". ")});
+    if(!hasV) c.classList.add("nodata");
+    yh.appendChild(c);
   });
 
   const vh=$("#chips-vert"); vh.textContent="";
@@ -479,6 +500,20 @@ function renderSources(){
 /* ---------------- uyarılar ---------------- */
 function renderNotices(){
   const host=$("#notices"); host.textContent="";
+  const gaps=state.years.filter(y=>!periodHasVerticals(y));
+  if(gaps.length&&realVerts().length){
+    const d=document.createElement("div"); d.className="notice";
+    const b=document.createElement("b");
+    b.textContent=gaps.join(", ")+(gaps.length>1?" yılları":" yılı")+
+      " için sektör kırılımı yok. ";
+    d.appendChild(b);
+    d.appendChild(document.createTextNode(
+      "startups.watch sektör serilerini 2018'den başlatıyor; öncesinde yalnız "+
+      "ekosistem toplamı yayınlanıyor. Bu yıllarda sektör satırları boş görünür — "+
+      "veri eksik değil, o kırılım hiç yayınlanmamış. Toplamı görmek için "+
+      "“Tüm ekosistem (toplam)” sektörünü seçin."));
+    host.appendChild(d);
+  }
   const sc=DATA.scopes.find(x=>x.id===state.s);
   if(sc&&!sc.verticals&&state.verts.some(v=>v!=="__total__")){
     const d=document.createElement("div"); d.className="notice";
@@ -537,7 +572,12 @@ function renderTable(){
       const c=cell(vid,y);
       const td=document.createElement("td");
       if(!c){ td.className="empty"; td.textContent="—";
-              td.title="Bu yıl bu tag raporun ilk 10'unda yok. Yok ≠ sıfır."; }
+              td.title = vid==="__total__"
+                ? "Bu dönem için toplam yayınlanmamış."
+                : (periodHasVerticals(y)
+                   ? "Bu tag o yıl raporun ilk 10'unda yok. Yok ≠ sıfır."
+                   : "Bu yıl için sektör kırılımı hiç yayınlanmamış — "+
+                     "yalnız ekosistem toplamı var."); }
       else{
         td.textContent=fmt(c.val,state.m);
         if(c.pv) td.classList.add("prov");

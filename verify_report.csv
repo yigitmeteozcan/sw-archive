@@ -1,0 +1,761 @@
+data_year,report_id,metric,dim_value_canon,scope,facts_value,verify_value,durum,not
+2010,2024,total_deal_size,,all,20000000.0,,UNREADABLE,görsel okuma kaydı yok
+2011,2024,total_deal_size,,all,60000000.0,,UNREADABLE,görsel okuma kaydı yok
+2012,2024,total_deal_size,,all,33000000.0,,UNREADABLE,görsel okuma kaydı yok
+2013,2024,total_deal_size,,all,79000000.0,,UNREADABLE,görsel okuma kaydı yok
+2014,2024,total_deal_size,,all,37000000.0,,UNREADABLE,görsel okuma kaydı yok
+2015,2024,total_deal_size,,all,70000000.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2024,total_deal_size,,all,58000000.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2024,total_deal_size,,all,116000000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2024,total_deal_size,,all,84000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2024,total_deal_size,,all,103000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2024,total_deal_size,,all,155000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2024,total_deal_size,,all,1900000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2024,total_deal_size,,all,1400000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2024,total_deal_size,,all,736000000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2024,total_deal_size,,all,1100000000.0,,UNREADABLE,görsel okuma kaydı yok
+2010,2024,total_deal_count,,all,13.0,,UNREADABLE,görsel okuma kaydı yok
+2011,2024,total_deal_count,,all,28.0,,UNREADABLE,görsel okuma kaydı yok
+2012,2024,total_deal_count,,all,31.0,,UNREADABLE,görsel okuma kaydı yok
+2013,2024,total_deal_count,,all,77.0,,UNREADABLE,görsel okuma kaydı yok
+2014,2024,total_deal_count,,all,67.0,,UNREADABLE,görsel okuma kaydı yok
+2015,2024,total_deal_count,,all,100.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2024,total_deal_count,,all,156.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2024,total_deal_count,,all,186.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2024,total_deal_count,,all,139.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2024,total_deal_count,,all,132.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2024,total_deal_count,,all,215.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2024,total_deal_count,,all,343.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2024,total_deal_count,,all,354.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2024,total_deal_count,,all,358.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2024,total_deal_count,,all,469.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2024,total_deal_size,,ex_getir_bigg,65000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2024,total_deal_size,,ex_getir_bigg,155000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2024,total_deal_size,,ex_getir_bigg,912000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2024,total_deal_size,,ex_getir_bigg,591000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2024,total_deal_size,,ex_getir_bigg,236000000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2024,total_deal_size,,ex_getir_bigg,804000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2024,total_deal_count,,ex_getir_bigg,131.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2024,total_deal_count,,ex_getir_bigg,215.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2024,total_deal_count,,ex_getir_bigg,340.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2024,total_deal_count,,ex_getir_bigg,353.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2024,total_deal_count,,ex_getir_bigg,357.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2024,total_deal_count,,ex_getir_bigg,237.0,,UNREADABLE,görsel okuma kaydı yok
+2015,2025,total_deal_size,,all,70000000.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2025,total_deal_size,,all,58000000.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2025,total_deal_size,,all,116000000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2025,total_deal_size,,all,84000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2025,total_deal_size,,all,103000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2025,total_deal_size,,all,155000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2025,total_deal_size,,all,1900000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2025,total_deal_size,,all,1400000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2025,total_deal_size,,all,737000000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2025,total_deal_size,,all,1100000000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2025,total_deal_size,,all,589000000.0,,UNREADABLE,görsel okuma kaydı yok
+2015,2025,total_deal_count,,all,100.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2025,total_deal_count,,all,156.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2025,total_deal_count,,all,185.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2025,total_deal_count,,all,138.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2025,total_deal_count,,all,132.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2025,total_deal_count,,all,215.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2025,total_deal_count,,all,344.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2025,total_deal_count,,all,356.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2025,total_deal_count,,all,365.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2025,total_deal_count,,all,588.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2025,total_deal_count,,all,306.0,,UNREADABLE,görsel okuma kaydı yok
+2015,2025,total_deal_size,,ex_getir_bigg,70000000.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2025,total_deal_size,,ex_getir_bigg,58000000.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2025,total_deal_size,,ex_getir_bigg,116000000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2025,total_deal_size,,ex_getir_bigg,83000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2025,total_deal_size,,ex_getir_bigg,65000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2025,total_deal_size,,ex_getir_bigg,155000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2025,total_deal_size,,ex_getir_bigg,883000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2025,total_deal_size,,ex_getir_bigg,593000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2025,total_deal_size,,ex_getir_bigg,237000000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2025,total_deal_size,,ex_getir_bigg,814000000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2025,total_deal_size,,ex_getir_bigg,586000000.0,,UNREADABLE,görsel okuma kaydı yok
+2015,2025,total_deal_count,,ex_getir_bigg,99.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2025,total_deal_count,,ex_getir_bigg,156.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2025,total_deal_count,,ex_getir_bigg,185.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2025,total_deal_count,,ex_getir_bigg,137.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2025,total_deal_count,,ex_getir_bigg,131.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2025,total_deal_count,,ex_getir_bigg,215.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2025,total_deal_count,,ex_getir_bigg,341.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2025,total_deal_count,,ex_getir_bigg,355.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2025,total_deal_count,,ex_getir_bigg,364.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2025,total_deal_count,,ex_getir_bigg,252.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2025,total_deal_count,,ex_getir_bigg,202.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2026q2,total_deal_size,,all,58000000.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2026q2,total_deal_size,,all,116000000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2026q2,total_deal_size,,all,84000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2026q2,total_deal_size,,all,103000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2026q2,total_deal_size,,all,155000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,total_deal_size,,all,1900000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,total_deal_size,,all,1400000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,total_deal_size,,all,738000000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,total_deal_size,,all,1100000000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,total_deal_size,,all,609000000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,total_deal_size,,all,172000000.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2026q2,total_deal_count,,all,156.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2026q2,total_deal_count,,all,185.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2026q2,total_deal_count,,all,138.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2026q2,total_deal_count,,all,132.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2026q2,total_deal_count,,all,215.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,total_deal_count,,all,343.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,total_deal_count,,all,356.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,total_deal_count,,all,366.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,total_deal_count,,all,589.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,total_deal_count,,all,388.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,total_deal_count,,all,87.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2026q2,total_deal_size,,ex_getir_bigg,58000000.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2026q2,total_deal_size,,ex_getir_bigg,116000000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2026q2,total_deal_size,,ex_getir_bigg,83000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2026q2,total_deal_size,,ex_getir_bigg,65000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2026q2,total_deal_size,,ex_getir_bigg,155000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,total_deal_size,,ex_getir_bigg,880000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,total_deal_size,,ex_getir_bigg,593000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,total_deal_size,,ex_getir_bigg,238000000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,total_deal_size,,ex_getir_bigg,814000000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,total_deal_size,,ex_getir_bigg,605000000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,total_deal_size,,ex_getir_bigg,171000000.0,,UNREADABLE,görsel okuma kaydı yok
+2016,2026q2,total_deal_count,,ex_getir_bigg,156.0,,UNREADABLE,görsel okuma kaydı yok
+2017,2026q2,total_deal_count,,ex_getir_bigg,185.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2026q2,total_deal_count,,ex_getir_bigg,137.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2026q2,total_deal_count,,ex_getir_bigg,131.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2026q2,total_deal_count,,ex_getir_bigg,215.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,total_deal_count,,ex_getir_bigg,340.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,total_deal_count,,ex_getir_bigg,355.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,total_deal_count,,ex_getir_bigg,365.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,total_deal_count,,ex_getir_bigg,254.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,total_deal_count,,ex_getir_bigg,214.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,total_deal_count,,ex_getir_bigg,58.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,artificial_intelligence,all,5.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,biotech,all,2.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,ecommerce,all,7.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,fintech,all,10.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,foodtech,all,6.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,internet_of_things,all,5.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,marketingtech,all,2.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,marketplace,all,6.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,regtech,all,1.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,restaurant,all,5.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,retailtech,all,6.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,saas,all,10.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,smart_city,all,4.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_count,travel,all,2.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_size,artificial_intelligence,all,600000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_size,foodtech,all,1000000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_size,internet_of_things,all,1300000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2018,funding_by_vertical_size,restaurant,all,1500000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_count,artificial_intelligence,all,11.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_count,deeptech,all,11.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_count,fintech,all,17.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_count,grocery_delivery,all,1.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_count,marketplace,all,10.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_count,mobility,all,2.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_count,saas,all,14.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_size,artificial_intelligence,all,5800000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_size,deeptech,all,3300000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_size,fintech,all,8400000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_size,grocery_delivery,all,38000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_size,marketplace,all,8400000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_size,mobility,all,8000000.0,,UNREADABLE,görsel okuma kaydı yok
+2019,2019,funding_by_vertical_size,saas,all,8300000.000000001,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,artificial_intelligence,all,14.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,deeptech,all,13.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,ecommerce,all,7.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,edtech,all,9.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,fintech,all,16.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,gaming,all,12.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,grocery_delivery,all,1.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,healthtech,all,15.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,logistics,all,10.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,marketingtech,all,4.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,marketplace,all,12.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,on_demand_mobile,all,2.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,retailtech,all,8.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_count,saas,all,25.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,artificial_intelligence,all,39000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,deeptech,all,7000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,ecommerce,all,6000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,edtech,all,3000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,fintech,all,20000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,gaming,all,8000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,grocery_delivery,all,10000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,healthtech,all,22000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,logistics,all,2000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,marketingtech,all,32000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,marketplace,all,3000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,on_demand_mobile,all,11000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,retailtech,all,6000000.0,,UNREADABLE,görsel okuma kaydı yok
+2020,2020,funding_by_vertical_size,saas,all,50000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,artificial_intelligence,all,35.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,blockchain,all,6.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,deeptech,all,31.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,fintech,all,29.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,gaming,all,52.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,grocery_delivery,all,4.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,healthtech,all,22.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_count,proptech,all,2.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,artificial_intelligence,all,18000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,blockchain,all,39000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,deeptech,all,28000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,fintech,all,64000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,gaming,all,265000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,grocery_delivery,all,984000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,healthtech,all,20000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2021,funding_by_vertical_size,proptech,all,66000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_count,artificial_intelligence,all,26.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_count,fintech,all,34.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_count,gaming,all,24.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_count,grocery_delivery,all,3.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_count,marketingtech,all,9.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_count,marketplace,all,24.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_count,saas,all,33.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_size,artificial_intelligence,all,151000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_size,fintech,all,90000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_size,gaming,all,362000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_size,grocery_delivery,all,768000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_size,marketingtech,all,125000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_size,marketplace,all,61000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2022,funding_by_vertical_size,saas,all,148000000.0,,UNREADABLE,görsel okuma kaydı yok
+2018,2023,funding_by_vertical_count,artificial_intelligence,all,13.0,13,OK,
+2018,2023,funding_by_vertical_count,climatetech,all,7.0,7,OK,
+2018,2023,funding_by_vertical_count,deeptech,all,12.0,12,OK,
+2018,2023,funding_by_vertical_count,ecommerce,all,8.0,8,OK,
+2018,2023,funding_by_vertical_count,energy,all,6.0,6,OK,
+2018,2023,funding_by_vertical_count,fintech,all,18.0,18,OK,
+2018,2023,funding_by_vertical_count,gaming,all,8.0,8,OK,
+2018,2023,funding_by_vertical_count,healthtech,all,8.0,8,OK,
+2018,2023,funding_by_vertical_count,internet_of_things,all,10.0,10,OK,
+2018,2023,funding_by_vertical_count,saas,all,17.0,17,OK,
+2018,2023,funding_by_vertical_size,artificial_intelligence,all,9500000.0,$9.5M,OK,
+2018,2023,funding_by_vertical_size,ecommerce,all,8100000.0,$8.1M,OK,
+2018,2023,funding_by_vertical_size,energy,all,1600000.0,$1.6M,OK,
+2018,2023,funding_by_vertical_size,fintech,all,16500000.0,$16.5M,OK,
+2018,2023,funding_by_vertical_size,gaming,all,1800000.0,$1.8M,OK,
+2018,2023,funding_by_vertical_size,grocery_delivery,all,1200000.0,$1.2M,OK,
+2018,2023,funding_by_vertical_size,image_process,all,1100000.0,$1.1M,OK,
+2018,2023,funding_by_vertical_size,restaurant,all,2200000.0,$2.2M,OK,
+2018,2023,funding_by_vertical_size,retailtech,all,2700000.0,$2.7M,OK,
+2018,2023,funding_by_vertical_size,saas,all,13100000.0,$13.1M,OK,
+2019,2023,funding_by_vertical_count,artificial_intelligence,all,15.0,15,OK,
+2019,2023,funding_by_vertical_count,climatetech,all,8.0,8,OK,
+2019,2023,funding_by_vertical_count,deeptech,all,12.0,12,OK,
+2019,2023,funding_by_vertical_count,ecommerce,all,6.0,6,OK,
+2019,2023,funding_by_vertical_count,energy,all,5.0,5,OK,
+2019,2023,funding_by_vertical_count,fintech,all,19.0,19,OK,
+2019,2023,funding_by_vertical_count,gaming,all,6.0,6,OK,
+2019,2023,funding_by_vertical_count,healthtech,all,7.0,7,OK,
+2019,2023,funding_by_vertical_count,internet_of_things,all,4.0,4,OK,
+2019,2023,funding_by_vertical_count,saas,all,17.0,17,OK,
+2019,2023,funding_by_vertical_size,artificial_intelligence,all,5400000.0,$5.4M,OK,
+2019,2023,funding_by_vertical_size,ecommerce,all,1400000.0,$1.4M,OK,
+2019,2023,funding_by_vertical_size,energy,all,900000.0,$0.9M,OK,
+2019,2023,funding_by_vertical_size,fintech,all,4300000.0,$4.3M,OK,
+2019,2023,funding_by_vertical_size,gaming,all,8400000.0,$8.4M,OK,
+2019,2023,funding_by_vertical_size,grocery_delivery,all,38100000.0,$38.1M,OK,
+2019,2023,funding_by_vertical_size,image_process,all,1000000.0,$1M,OK,
+2019,2023,funding_by_vertical_size,restaurant,all,2700000.0,$2.7M,OK,
+2019,2023,funding_by_vertical_size,retailtech,all,2500000.0,$2.5M,OK,
+2019,2023,funding_by_vertical_size,saas,all,5800000.0,$5.8M,OK,
+2020,2023,funding_by_vertical_count,artificial_intelligence,all,19.0,19,OK,
+2020,2023,funding_by_vertical_count,climatetech,all,8.0,8,OK,
+2020,2023,funding_by_vertical_count,deeptech,all,17.0,17,OK,
+2020,2023,funding_by_vertical_count,ecommerce,all,11.0,11,OK,
+2020,2023,funding_by_vertical_count,energy,all,9.0,9,OK,
+2020,2023,funding_by_vertical_count,fintech,all,25.0,25,OK,
+2020,2023,funding_by_vertical_count,gaming,all,18.0,18,OK,
+2020,2023,funding_by_vertical_count,healthtech,all,16.0,16,OK,
+2020,2023,funding_by_vertical_count,internet_of_things,all,9.0,9,OK,
+2020,2023,funding_by_vertical_count,saas,all,36.0,36,OK,
+2020,2023,funding_by_vertical_size,artificial_intelligence,all,43300000.0,$43.3M,OK,
+2020,2023,funding_by_vertical_size,ecommerce,all,8000000.0,$8M,OK,
+2020,2023,funding_by_vertical_size,energy,all,2500000.0,$2.5M,OK,
+2020,2023,funding_by_vertical_size,fintech,all,25900000.0,$25.9M,OK,
+2020,2023,funding_by_vertical_size,gaming,all,14700000.0,$14.7M,OK,
+2020,2023,funding_by_vertical_size,grocery_delivery,all,0.0,$0M,OK,
+2020,2023,funding_by_vertical_size,image_process,all,2700000.0,$2.7M,OK,
+2020,2023,funding_by_vertical_size,restaurant,all,4000000.0,$4M,OK,
+2020,2023,funding_by_vertical_size,retailtech,all,8000000.0,$8M,OK,
+2020,2023,funding_by_vertical_size,saas,all,54200000.0,$54.2M,OK,
+2021,2023,funding_by_vertical_count,artificial_intelligence,all,39.0,39,OK,
+2021,2023,funding_by_vertical_count,climatetech,all,21.0,21,OK,
+2021,2023,funding_by_vertical_count,deeptech,all,33.0,33,OK,
+2021,2023,funding_by_vertical_count,ecommerce,all,17.0,17,OK,
+2021,2023,funding_by_vertical_count,energy,all,11.0,11,OK,
+2021,2023,funding_by_vertical_count,fintech,all,40.0,40,OK,
+2021,2023,funding_by_vertical_count,gaming,all,54.0,54,OK,
+2021,2023,funding_by_vertical_count,healthtech,all,23.0,23,OK,
+2021,2023,funding_by_vertical_count,internet_of_things,all,8.0,8,OK,
+2021,2023,funding_by_vertical_count,saas,all,26.0,26,OK,
+2021,2023,funding_by_vertical_size,artificial_intelligence,all,19100000.0,$19.1M,OK,
+2021,2023,funding_by_vertical_size,ecommerce,all,29300000.0,$29.3M,OK,
+2021,2023,funding_by_vertical_size,energy,all,4600000.0,$4.6M,OK,
+2021,2023,funding_by_vertical_size,fintech,all,68900000.0,$68.9M,OK,
+2021,2023,funding_by_vertical_size,gaming,all,520000000.0,$520M,OK,
+2021,2023,funding_by_vertical_size,grocery_delivery,all,984400000.0,$984.4M,OK,
+2021,2023,funding_by_vertical_size,image_process,all,7800000.0,$7.8M,OK,
+2021,2023,funding_by_vertical_size,restaurant,all,7200000.0,$7.2M,OK,
+2021,2023,funding_by_vertical_size,retailtech,all,5900000.0,$5.9M,OK,
+2021,2023,funding_by_vertical_size,saas,all,9700000.0,$9.7M,OK,
+2022,2023,funding_by_vertical_count,artificial_intelligence,all,31.0,31,OK,
+2022,2023,funding_by_vertical_count,climatetech,all,22.0,22,OK,
+2022,2023,funding_by_vertical_count,deeptech,all,21.0,21,OK,
+2022,2023,funding_by_vertical_count,ecommerce,all,18.0,18,OK,
+2022,2023,funding_by_vertical_count,energy,all,13.0,13,OK,
+2022,2023,funding_by_vertical_count,fintech,all,37.0,37,OK,
+2022,2023,funding_by_vertical_count,gaming,all,27.0,27,OK,
+2022,2023,funding_by_vertical_count,healthtech,all,27.0,27,OK,
+2022,2023,funding_by_vertical_count,internet_of_things,all,14.0,14,OK,
+2022,2023,funding_by_vertical_count,saas,all,35.0,35,OK,
+2022,2023,funding_by_vertical_size,artificial_intelligence,all,151900000.0,$151.9M,OK,
+2022,2023,funding_by_vertical_size,ecommerce,all,33900000.0,$33.9M,OK,
+2022,2023,funding_by_vertical_size,energy,all,11600000.0,$11.6M,OK,
+2022,2023,funding_by_vertical_size,fintech,all,91200000.0,$91.2M,OK,
+2022,2023,funding_by_vertical_size,gaming,all,108300000.0,$108.3M,OK,
+2022,2023,funding_by_vertical_size,grocery_delivery,all,768200000.0,$768.2M,OK,
+2022,2023,funding_by_vertical_size,image_process,all,4500000.0,$4.5M,OK,
+2022,2023,funding_by_vertical_size,restaurant,all,11100000.0,$11.1M,OK,
+2022,2023,funding_by_vertical_size,retailtech,all,17000000.0,$17M,OK,
+2022,2023,funding_by_vertical_size,saas,all,148400000.0,$148.4M,OK,
+2023,2023,funding_by_vertical_count,artificial_intelligence,all,47.0,47,OK,
+2023,2023,funding_by_vertical_count,climatetech,all,25.0,25,OK,
+2023,2023,funding_by_vertical_count,deeptech,all,18.0,18,OK,
+2023,2023,funding_by_vertical_count,ecommerce,all,21.0,21,OK,
+2023,2023,funding_by_vertical_count,energy,all,24.0,24,OK,
+2023,2023,funding_by_vertical_count,fintech,all,33.0,33,OK,
+2023,2023,funding_by_vertical_count,gaming,all,41.0,41,OK,
+2023,2023,funding_by_vertical_count,healthtech,all,17.0,17,OK,
+2023,2023,funding_by_vertical_count,internet_of_things,all,17.0,17,OK,
+2023,2023,funding_by_vertical_count,saas,all,34.0,34,OK,
+2023,2023,funding_by_vertical_size,artificial_intelligence,all,36100000.0,$36.1M,OK,
+2023,2023,funding_by_vertical_size,ecommerce,all,18200000.0,$18.2M,OK,
+2023,2023,funding_by_vertical_size,energy,all,18700000.0,$18.7M,OK,
+2023,2023,funding_by_vertical_size,fintech,all,27900000.0,$27.9M,OK,
+2023,2023,funding_by_vertical_size,gaming,all,31100000.0,$31.1M,OK,
+2023,2023,funding_by_vertical_size,grocery_delivery,all,500300000.0,$500.3M,OK,
+2023,2023,funding_by_vertical_size,image_process,all,19500000.0,$19.5M,OK,
+2023,2023,funding_by_vertical_size,restaurant,all,20100000.0,$20.1M,OK,
+2023,2023,funding_by_vertical_size,retailtech,all,30100000.0,$30.1M,OK,
+2023,2023,funding_by_vertical_size,saas,all,40900000.0,$40.9M,OK,
+2019,2024,funding_by_vertical_count,agritech,all,1.0,1,OK,
+2019,2024,funding_by_vertical_count,artificial_intelligence,all,15.0,15,OK,
+2019,2024,funding_by_vertical_count,biotech,all,4.0,4,OK,
+2019,2024,funding_by_vertical_count,energy,all,5.0,5,OK,
+2019,2024,funding_by_vertical_count,fintech,all,19.0,19,OK,
+2019,2024,funding_by_vertical_count,gaming,all,6.0,6,OK,
+2019,2024,funding_by_vertical_count,healthtech,all,7.0,7,OK,
+2019,2024,funding_by_vertical_count,internet_of_things,all,3.0,3,OK,
+2019,2024,funding_by_vertical_count,saas,all,17.0,17,OK,
+2019,2024,funding_by_vertical_count,sustainability,all,8.0,8,OK,
+2019,2024,funding_by_vertical_size,artificial_intelligence,all,4800000.0,$4.8M,OK,
+2019,2024,funding_by_vertical_size,autotech,all,2300000.0,$2.3M,OK,
+2019,2024,funding_by_vertical_size,blockchain,all,0.0,$0M,OK,
+2019,2024,funding_by_vertical_size,cybersecurity,all,6900000.0,$6.9M,OK,
+2019,2024,funding_by_vertical_size,fintech,all,4300000.0,$4.3M,OK,
+2019,2024,funding_by_vertical_size,gaming,all,8400000.0,$8.4M,OK,
+2019,2024,funding_by_vertical_size,grocery_delivery,all,38100000.0,$38.1M,OK,
+2019,2024,funding_by_vertical_size,internet_of_things,all,1500000.0,$1.5M,OK,
+2019,2024,funding_by_vertical_size,marketingtech,all,1700000.0,$1.7M,OK,
+2019,2024,funding_by_vertical_size,saas,all,5800000.0,$5.8M,OK,
+2020,2024,funding_by_vertical_count,agritech,all,5.0,5,OK,
+2020,2024,funding_by_vertical_count,artificial_intelligence,all,19.0,19,OK,
+2020,2024,funding_by_vertical_count,biotech,all,5.0,5,OK,
+2020,2024,funding_by_vertical_count,energy,all,9.0,9,OK,
+2020,2024,funding_by_vertical_count,fintech,all,25.0,25,OK,
+2020,2024,funding_by_vertical_count,gaming,all,20.0,20,OK,
+2020,2024,funding_by_vertical_count,healthtech,all,16.0,16,OK,
+2020,2024,funding_by_vertical_count,internet_of_things,all,9.0,9,OK,
+2020,2024,funding_by_vertical_count,saas,all,36.0,36,OK,
+2020,2024,funding_by_vertical_count,sustainability,all,4.0,4,OK,
+2020,2024,funding_by_vertical_size,artificial_intelligence,all,43300000.0,$43.3M,OK,
+2020,2024,funding_by_vertical_size,autotech,all,3200000.0,$3.2M,OK,
+2020,2024,funding_by_vertical_size,blockchain,all,300000.0,$0.3M,OK,
+2020,2024,funding_by_vertical_size,cybersecurity,all,400000.0,$0.4M,OK,
+2020,2024,funding_by_vertical_size,fintech,all,25900000.0,$25.9M,OK,
+2020,2024,funding_by_vertical_size,gaming,all,20000000.0,$20M,OK,
+2020,2024,funding_by_vertical_size,grocery_delivery,all,0.0,$0M,OK,
+2020,2024,funding_by_vertical_size,internet_of_things,all,3900000.0,$3.9M,OK,
+2020,2024,funding_by_vertical_size,marketingtech,all,33299999.999999996,$33.3M,OK,
+2020,2024,funding_by_vertical_size,saas,all,54200000.0,$54.2M,OK,
+2021,2024,funding_by_vertical_count,agritech,all,15.0,15,OK,
+2021,2024,funding_by_vertical_count,artificial_intelligence,all,41.0,41,OK,
+2021,2024,funding_by_vertical_count,biotech,all,10.0,10,OK,
+2021,2024,funding_by_vertical_count,energy,all,11.0,11,OK,
+2021,2024,funding_by_vertical_count,fintech,all,40.0,40,OK,
+2021,2024,funding_by_vertical_count,gaming,all,54.0,54,OK,
+2021,2024,funding_by_vertical_count,healthtech,all,23.0,23,OK,
+2021,2024,funding_by_vertical_count,internet_of_things,all,8.0,8,OK,
+2021,2024,funding_by_vertical_count,saas,all,27.0,27,OK,
+2021,2024,funding_by_vertical_count,sustainability,all,7.0,7,OK,
+2021,2024,funding_by_vertical_size,artificial_intelligence,all,20500000.0,$20.5M,OK,
+2021,2024,funding_by_vertical_size,autotech,all,75300000.0,$75.3M,OK,
+2021,2024,funding_by_vertical_size,blockchain,all,39700000.0,$39.7M,OK,
+2021,2024,funding_by_vertical_size,cybersecurity,all,24900000.0,$24.9M,OK,
+2021,2024,funding_by_vertical_size,fintech,all,68900000.0,$68.9M,OK,
+2021,2024,funding_by_vertical_size,gaming,all,520000000.0,$520M,OK,
+2021,2024,funding_by_vertical_size,grocery_delivery,all,984400000.0,$984.4M,OK,
+2021,2024,funding_by_vertical_size,internet_of_things,all,6000000.0,$6M,OK,
+2021,2024,funding_by_vertical_size,marketingtech,all,2700000.0,$2.7M,OK,
+2021,2024,funding_by_vertical_size,saas,all,10700000.0,$10.7M,OK,
+2022,2024,funding_by_vertical_count,agritech,all,9.0,9,OK,
+2022,2024,funding_by_vertical_count,artificial_intelligence,all,38.0,38,OK,
+2022,2024,funding_by_vertical_count,biotech,all,8.0,8,OK,
+2022,2024,funding_by_vertical_count,energy,all,13.0,13,OK,
+2022,2024,funding_by_vertical_count,fintech,all,39.0,39,OK,
+2022,2024,funding_by_vertical_count,gaming,all,28.0,28,OK,
+2022,2024,funding_by_vertical_count,healthtech,all,28.0,28,OK,
+2022,2024,funding_by_vertical_count,internet_of_things,all,15.0,15,OK,
+2022,2024,funding_by_vertical_count,saas,all,36.0,36,OK,
+2022,2024,funding_by_vertical_count,sustainability,all,10.0,10,OK,
+2022,2024,funding_by_vertical_size,artificial_intelligence,all,152700000.0,$152.7M,OK,
+2022,2024,funding_by_vertical_size,autotech,all,37800000.0,$37.8M,OK,
+2022,2024,funding_by_vertical_size,blockchain,all,17200000.0,$17.2M,OK,
+2022,2024,funding_by_vertical_size,cybersecurity,all,14300000.0,$14.3M,OK,
+2022,2024,funding_by_vertical_size,fintech,all,91500000.0,$91.5M,OK,
+2022,2024,funding_by_vertical_size,gaming,all,113300000.0,$113.3M,OK,
+2022,2024,funding_by_vertical_size,grocery_delivery,all,768200000.0,$768.2M,OK,
+2022,2024,funding_by_vertical_size,internet_of_things,all,6700000.0,$6.7M,OK,
+2022,2024,funding_by_vertical_size,marketingtech,all,125200000.0,$125.2M,OK,
+2022,2024,funding_by_vertical_size,saas,all,145400000.0,$145.4M,OK,
+2023,2024,funding_by_vertical_count,agritech,all,10.0,10,OK,
+2023,2024,funding_by_vertical_count,artificial_intelligence,all,59.0,59,OK,
+2023,2024,funding_by_vertical_count,biotech,all,7.0,7,OK,
+2023,2024,funding_by_vertical_count,energy,all,25.0,25,OK,
+2023,2024,funding_by_vertical_count,fintech,all,40.0,40,OK,
+2023,2024,funding_by_vertical_count,gaming,all,47.0,47,OK,
+2023,2024,funding_by_vertical_count,healthtech,all,19.0,19,OK,
+2023,2024,funding_by_vertical_count,internet_of_things,all,17.0,17,OK,
+2023,2024,funding_by_vertical_count,saas,all,37.0,37,OK,
+2023,2024,funding_by_vertical_count,sustainability,all,15.0,15,OK,
+2023,2024,funding_by_vertical_size,artificial_intelligence,all,39300000.0,$39.3M,OK,
+2023,2024,funding_by_vertical_size,autotech,all,18400000.0,$18.4M,OK,
+2023,2024,funding_by_vertical_size,blockchain,all,5300000.0,$5.3M,OK,
+2023,2024,funding_by_vertical_size,cybersecurity,all,11200000.0,$11.2M,OK,
+2023,2024,funding_by_vertical_size,fintech,all,30700000.0,$30.7M,OK,
+2023,2024,funding_by_vertical_size,gaming,all,32400000.0,$32.4M,OK,
+2023,2024,funding_by_vertical_size,grocery_delivery,all,500300000.0,$500.3M,OK,
+2023,2024,funding_by_vertical_size,internet_of_things,all,9300000.0,$9.3M,OK,
+2023,2024,funding_by_vertical_size,marketingtech,all,4800000.0,$4.8M,OK,
+2023,2024,funding_by_vertical_size,saas,all,44300000.0,$44.3M,OK,
+2024,2024,funding_by_vertical_count,agritech,all,29.0,29,OK,
+2024,2024,funding_by_vertical_count,artificial_intelligence,all,75.0,75,OK,
+2024,2024,funding_by_vertical_count,biotech,all,52.0,52,OK,
+2024,2024,funding_by_vertical_count,energy,all,21.0,21,OK,
+2024,2024,funding_by_vertical_count,fintech,all,30.0,30,OK,
+2024,2024,funding_by_vertical_count,gaming,all,21.0,21,OK,
+2024,2024,funding_by_vertical_count,healthtech,all,42.0,42,OK,
+2024,2024,funding_by_vertical_count,internet_of_things,all,17.0,17,OK,
+2024,2024,funding_by_vertical_count,saas,all,33.0,33,OK,
+2024,2024,funding_by_vertical_count,sustainability,all,28.0,28,OK,
+2024,2024,funding_by_vertical_size,artificial_intelligence,all,277500000.0,$277.5M,OK,
+2024,2024,funding_by_vertical_size,autotech,all,28700000.0,$28.7M,OK,
+2024,2024,funding_by_vertical_size,blockchain,all,82400000.0,$82.4M,OK,
+2024,2024,funding_by_vertical_size,cybersecurity,all,72600000.0,$72.6M,OK,
+2024,2024,funding_by_vertical_size,fintech,all,194500000.0,$194.5M,OK,
+2024,2024,funding_by_vertical_size,gaming,all,125300000.0,$125.3M,OK,
+2024,2024,funding_by_vertical_size,grocery_delivery,all,250000000.0,$250M,OK,
+2024,2024,funding_by_vertical_size,internet_of_things,all,29200000.0,$29.2M,OK,
+2024,2024,funding_by_vertical_size,marketingtech,all,252600000.0,$252.6M,OK,
+2024,2024,funding_by_vertical_size,saas,all,288400000.0,$288.4M,OK,
+2020,2025,funding_by_vertical_count,artificial_intelligence,all,25.0,25,OK,
+2020,2025,funding_by_vertical_count,biotech,all,5.0,5,OK,
+2020,2025,funding_by_vertical_count,deeptech,all,17.0,17,OK,
+2020,2025,funding_by_vertical_count,energy,all,9.0,9,OK,
+2020,2025,funding_by_vertical_count,fintech,all,25.0,25,OK,
+2020,2025,funding_by_vertical_count,gaming,all,20.0,20,OK,
+2020,2025,funding_by_vertical_count,healthtech,all,16.0,16,OK,
+2020,2025,funding_by_vertical_count,marketingtech,all,6.0,6,OK,
+2020,2025,funding_by_vertical_count,saas,all,36.0,36,OK,
+2020,2025,funding_by_vertical_count,sustainability,all,4.0,4,OK,
+2020,2025,funding_by_vertical_size,artificial_intelligence,all,63200000.0,$63.2M,OK,
+2020,2025,funding_by_vertical_size,cybersecurity,all,400000.0,$0.4M,OK,
+2020,2025,funding_by_vertical_size,deeptech,all,8300000.000000001,$8.3M,OK,
+2020,2025,funding_by_vertical_size,energy,all,2500000.0,$2.5M,OK,
+2020,2025,funding_by_vertical_size,fintech,all,25900000.0,$25.9M,OK,
+2020,2025,funding_by_vertical_size,gaming,all,20000000.0,$20M,OK,
+2020,2025,funding_by_vertical_size,marketingtech,all,33299999.999999996,$33.3M,OK,
+2020,2025,funding_by_vertical_size,marketplace,all,4700000.0,$4.7M,OK,
+2020,2025,funding_by_vertical_size,saas,all,54200000.0,$54.2M,OK,
+2020,2025,funding_by_vertical_size,telecom,all,0.0,$0M,OK,
+2021,2025,funding_by_vertical_count,artificial_intelligence,all,49.0,49,OK,
+2021,2025,funding_by_vertical_count,biotech,all,10.0,10,OK,
+2021,2025,funding_by_vertical_count,deeptech,all,33.0,33,OK,
+2021,2025,funding_by_vertical_count,energy,all,11.0,11,OK,
+2021,2025,funding_by_vertical_count,fintech,all,40.0,40,OK,
+2021,2025,funding_by_vertical_count,gaming,all,54.0,54,OK,
+2021,2025,funding_by_vertical_count,healthtech,all,23.0,23,OK,
+2021,2025,funding_by_vertical_count,marketingtech,all,4.0,4,OK,
+2021,2025,funding_by_vertical_count,saas,all,27.0,27,OK,
+2021,2025,funding_by_vertical_count,sustainability,all,7.0,7,OK,
+2021,2025,funding_by_vertical_size,artificial_intelligence,all,25700000.0,$25.7M,OK,
+2021,2025,funding_by_vertical_size,cybersecurity,all,24900000.0,$24.9M,OK,
+2021,2025,funding_by_vertical_size,deeptech,all,28600000.0,$28.6M,OK,
+2021,2025,funding_by_vertical_size,energy,all,4600000.0,$4.6M,OK,
+2021,2025,funding_by_vertical_size,fintech,all,68900000.0,$68.9M,OK,
+2021,2025,funding_by_vertical_size,gaming,all,491500000.0,$491.5M,OK,
+2021,2025,funding_by_vertical_size,marketingtech,all,3100000.0,$3.1M,OK,
+2021,2025,funding_by_vertical_size,marketplace,all,70500000.0,$70.5M,OK,
+2021,2025,funding_by_vertical_size,saas,all,10700000.0,$10.7M,OK,
+2021,2025,funding_by_vertical_size,telecom,all,5300000.0,$5.3M,OK,
+2022,2025,funding_by_vertical_count,artificial_intelligence,all,43.0,43,OK,
+2022,2025,funding_by_vertical_count,biotech,all,8.0,8,OK,
+2022,2025,funding_by_vertical_count,deeptech,all,24.0,24,OK,
+2022,2025,funding_by_vertical_count,energy,all,13.0,13,OK,
+2022,2025,funding_by_vertical_count,fintech,all,40.0,40,OK,
+2022,2025,funding_by_vertical_count,gaming,all,30.0,30,OK,
+2022,2025,funding_by_vertical_count,healthtech,all,28.0,28,OK,
+2022,2025,funding_by_vertical_count,marketingtech,all,12.0,12,OK,
+2022,2025,funding_by_vertical_count,saas,all,35.0,35,OK,
+2022,2025,funding_by_vertical_count,sustainability,all,10.0,10,OK,
+2022,2025,funding_by_vertical_size,artificial_intelligence,all,157700000.0,$157.7M,OK,
+2022,2025,funding_by_vertical_size,cybersecurity,all,14300000.0,$14.3M,OK,
+2022,2025,funding_by_vertical_size,deeptech,all,31000000.0,$31M,OK,
+2022,2025,funding_by_vertical_size,energy,all,11600000.0,$11.6M,OK,
+2022,2025,funding_by_vertical_size,fintech,all,91800000.0,$91.8M,OK,
+2022,2025,funding_by_vertical_size,gaming,all,116000000.0,$116M,OK,
+2022,2025,funding_by_vertical_size,marketingtech,all,125200000.0,$125.2M,OK,
+2022,2025,funding_by_vertical_size,marketplace,all,60100000.0,$60.1M,OK,
+2022,2025,funding_by_vertical_size,saas,all,145400000.0,$145.4M,OK,
+2022,2025,funding_by_vertical_size,telecom,all,0.0,$0M,OK,
+2023,2025,funding_by_vertical_count,artificial_intelligence,all,65.0,65,OK,
+2023,2025,funding_by_vertical_count,biotech,all,8.0,8,OK,
+2023,2025,funding_by_vertical_count,deeptech,all,20.0,20,OK,
+2023,2025,funding_by_vertical_count,energy,all,25.0,25,OK,
+2023,2025,funding_by_vertical_count,fintech,all,39.0,39,OK,
+2023,2025,funding_by_vertical_count,gaming,all,50.0,50,OK,
+2023,2025,funding_by_vertical_count,healthtech,all,19.0,19,OK,
+2023,2025,funding_by_vertical_count,marketingtech,all,13.0,13,OK,
+2023,2025,funding_by_vertical_count,saas,all,37.0,37,OK,
+2023,2025,funding_by_vertical_count,sustainability,all,16.0,16,OK,
+2023,2025,funding_by_vertical_size,artificial_intelligence,all,43400000.0,$43.4M,OK,
+2023,2025,funding_by_vertical_size,cybersecurity,all,11200000.0,$11.2M,OK,
+2023,2025,funding_by_vertical_size,deeptech,all,7100000.0,$7.1M,OK,
+2023,2025,funding_by_vertical_size,energy,all,19200000.0,$19.2M,OK,
+2023,2025,funding_by_vertical_size,fintech,all,30200000.0,$30.2M,OK,
+2023,2025,funding_by_vertical_size,gaming,all,35100000.0,$35.1M,OK,
+2023,2025,funding_by_vertical_size,marketingtech,all,4700000.0,$4.7M,OK,
+2023,2025,funding_by_vertical_size,marketplace,all,6600000.0,$6.6M,OK,
+2023,2025,funding_by_vertical_size,saas,all,43900000.0,$43.9M,OK,
+2023,2025,funding_by_vertical_size,telecom,all,2900000.0,$2.9M,OK,
+2024,2025,funding_by_vertical_count,artificial_intelligence,all,115.0,115,OK,
+2024,2025,funding_by_vertical_count,biotech,all,76.0,76,OK,
+2024,2025,funding_by_vertical_count,deeptech,all,17.0,17,OK,
+2024,2025,funding_by_vertical_count,energy,all,27.0,27,OK,
+2024,2025,funding_by_vertical_count,fintech,all,33.0,33,OK,
+2024,2025,funding_by_vertical_count,gaming,all,28.0,28,OK,
+2024,2025,funding_by_vertical_count,healthtech,all,60.0,60,OK,
+2024,2025,funding_by_vertical_count,marketingtech,all,10.0,10,OK,
+2024,2025,funding_by_vertical_count,saas,all,40.0,40,OK,
+2024,2025,funding_by_vertical_count,sustainability,all,40.0,40,OK,
+2024,2025,funding_by_vertical_size,artificial_intelligence,all,285500000.0,$285.5M,OK,
+2024,2025,funding_by_vertical_size,cybersecurity,all,73600000.0,$73.6M,OK,
+2024,2025,funding_by_vertical_size,deeptech,all,7700000.0,$7.7M,OK,
+2024,2025,funding_by_vertical_size,energy,all,3400000.0,$3.4M,OK,
+2024,2025,funding_by_vertical_size,fintech,all,196600000.0,$196.6M,OK,
+2024,2025,funding_by_vertical_size,gaming,all,128500000.0,$128.5M,OK,
+2024,2025,funding_by_vertical_size,marketingtech,all,252600000.0,$252.6M,OK,
+2024,2025,funding_by_vertical_size,marketplace,all,8700000.0,$8.7M,OK,
+2024,2025,funding_by_vertical_size,saas,all,288400000.0,$288.4M,OK,
+2024,2025,funding_by_vertical_size,telecom,all,2500000.0,$2.5M,OK,
+2025,2025,funding_by_vertical_count,artificial_intelligence,all,81.0,81,OK,
+2025,2025,funding_by_vertical_count,biotech,all,17.0,17,OK,
+2025,2025,funding_by_vertical_count,deeptech,all,14.0,14,OK,
+2025,2025,funding_by_vertical_count,energy,all,18.0,18,OK,
+2025,2025,funding_by_vertical_count,fintech,all,39.0,39,OK,
+2025,2025,funding_by_vertical_count,gaming,all,32.0,32,OK,
+2025,2025,funding_by_vertical_count,healthtech,all,29.0,29,OK,
+2025,2025,funding_by_vertical_count,marketingtech,all,10.0,10,OK,
+2025,2025,funding_by_vertical_count,saas,all,24.0,24,OK,
+2025,2025,funding_by_vertical_count,sustainability,all,10.0,10,OK,
+2025,2025,funding_by_vertical_size,artificial_intelligence,all,36400000.0,$36.4M,OK,
+2025,2025,funding_by_vertical_size,cybersecurity,all,19500000.0,$19.5M,OK,
+2025,2025,funding_by_vertical_size,deeptech,all,15200000.0,$15.2M,OK,
+2025,2025,funding_by_vertical_size,energy,all,11400000.0,$11.4M,OK,
+2025,2025,funding_by_vertical_size,fintech,all,219700000.0,$219.7M,OK,
+2025,2025,funding_by_vertical_size,gaming,all,180900000.0,$180.9M,OK,
+2025,2025,funding_by_vertical_size,marketingtech,all,13800000.0,$13.8M,OK,
+2025,2025,funding_by_vertical_size,marketplace,all,70400000.0,$70.4M,OK,
+2025,2025,funding_by_vertical_size,saas,all,15200000.0,$15.2M,OK,
+2025,2025,funding_by_vertical_size,telecom,all,12000000.0,$12M,OK,
+2021,2026q1,funding_by_vertical_size,artificial_intelligence,all,28600000.0,$28.6M,OK,
+2021,2026q1,funding_by_vertical_size,fintech,all,68900000.0,$68.9M,OK,
+2021,2026q1,funding_by_vertical_size,gaming,all,491500000.0,$491.5M,OK,
+2021,2026q1,funding_by_vertical_size,internet_of_things,all,6000000.0,$6M,OK,
+2021,2026q1,funding_by_vertical_size,marketingtech,all,3100000.0,$3.1M,OK,
+2021,2026q1,funding_by_vertical_size,mobility,all,32299999.999999996,$32.3M,OK,
+2021,2026q1,funding_by_vertical_size,saas,all,10700000.0,$10.7M,OK,
+2021,2026q1,funding_by_vertical_size,telecom,all,5300000.0,$5.3M,OK,
+2021,2026q1,funding_by_vertical_size,travel,all,4300000.0,$4.3M,OK,
+2021,2026q1,funding_by_vertical_size,video,all,1000000.0,$1M,OK,
+2022,2026q1,funding_by_vertical_size,artificial_intelligence,all,157700000.0,$157.7M,OK,
+2022,2026q1,funding_by_vertical_size,fintech,all,91800000.0,$91.8M,OK,
+2022,2026q1,funding_by_vertical_size,gaming,all,116000000.0,$116M,OK,
+2022,2026q1,funding_by_vertical_size,internet_of_things,all,6700000.0,$6.7M,OK,
+2022,2026q1,funding_by_vertical_size,marketingtech,all,125200000.0,$125.2M,OK,
+2022,2026q1,funding_by_vertical_size,mobility,all,3200000.0,$3.2M,OK,
+2022,2026q1,funding_by_vertical_size,saas,all,145400000.0,$145.4M,OK,
+2022,2026q1,funding_by_vertical_size,telecom,all,0.0,$0M,OK,
+2022,2026q1,funding_by_vertical_size,travel,all,4000000.0,$4M,OK,
+2022,2026q1,funding_by_vertical_size,video,all,1100000.0,$1.1M,OK,
+2023,2026q1,funding_by_vertical_size,artificial_intelligence,all,49800000.0,$49.8M,OK,
+2023,2026q1,funding_by_vertical_size,fintech,all,30200000.0,$30.2M,OK,
+2023,2026q1,funding_by_vertical_size,gaming,all,35100000.0,$35.1M,OK,
+2023,2026q1,funding_by_vertical_size,internet_of_things,all,9600000.0,$9.6M,OK,
+2023,2026q1,funding_by_vertical_size,marketingtech,all,4700000.0,$4.7M,OK,
+2023,2026q1,funding_by_vertical_size,mobility,all,17500000.0,$17.5M,OK,
+2023,2026q1,funding_by_vertical_size,saas,all,43900000.0,$43.9M,OK,
+2023,2026q1,funding_by_vertical_size,telecom,all,2900000.0,$2.9M,OK,
+2023,2026q1,funding_by_vertical_size,travel,all,1200000.0,$1.2M,OK,
+2023,2026q1,funding_by_vertical_size,video,all,200000.0,$0.2M,OK,
+2024,2026q1,funding_by_vertical_size,artificial_intelligence,all,285500000.0,$285.5M,OK,
+2024,2026q1,funding_by_vertical_size,fintech,all,196600000.0,$196.6M,OK,
+2024,2026q1,funding_by_vertical_size,gaming,all,128500000.0,$128.5M,OK,
+2024,2026q1,funding_by_vertical_size,internet_of_things,all,28500000.0,$28.5M,OK,
+2024,2026q1,funding_by_vertical_size,marketingtech,all,252600000.0,$252.6M,OK,
+2024,2026q1,funding_by_vertical_size,mobility,all,5400000.0,$5.4M,OK,
+2024,2026q1,funding_by_vertical_size,saas,all,288400000.0,$288.4M,OK,
+2024,2026q1,funding_by_vertical_size,telecom,all,2500000.0,$2.5M,OK,
+2024,2026q1,funding_by_vertical_size,travel,all,1300000.0,$1.3M,OK,
+2024,2026q1,funding_by_vertical_size,video,all,0.0,$0M,OK,
+2025,2026q1,funding_by_vertical_size,artificial_intelligence,all,40300000.0,$40.3M,OK,
+2025,2026q1,funding_by_vertical_size,fintech,all,220000000.0,$220M,OK,
+2025,2026q1,funding_by_vertical_size,gaming,all,181000000.0,$181M,OK,
+2025,2026q1,funding_by_vertical_size,internet_of_things,all,1200000.0,$1.2M,OK,
+2025,2026q1,funding_by_vertical_size,marketingtech,all,16300000.0,$16.3M,OK,
+2025,2026q1,funding_by_vertical_size,mobility,all,6700000.0,$6.7M,OK,
+2025,2026q1,funding_by_vertical_size,saas,all,17800000.0,$17.8M,OK,
+2025,2026q1,funding_by_vertical_size,telecom,all,12000000.0,$12M,OK,
+2025,2026q1,funding_by_vertical_size,travel,all,2200000.0,$2.2M,OK,
+2025,2026q1,funding_by_vertical_size,video,all,0.0,$0M,OK,
+2026,2026q1,funding_by_vertical_size,artificial_intelligence,all,11400000.0,$11.4M,OK,
+2026,2026q1,funding_by_vertical_size,fintech,all,10000000.0,$10M,OK,
+2026,2026q1,funding_by_vertical_size,gaming,all,34400000.0,$34.4M,OK,
+2026,2026q1,funding_by_vertical_size,internet_of_things,all,1500000.0,$1.5M,OK,
+2026,2026q1,funding_by_vertical_size,marketingtech,all,6600000.0,$6.6M,OK,
+2026,2026q1,funding_by_vertical_size,mobility,all,1000000.0,$1M,OK,
+2026,2026q1,funding_by_vertical_size,saas,all,6600000.0,$6.6M,OK,
+2026,2026q1,funding_by_vertical_size,telecom,all,1500000.0,$1.5M,OK,
+2026,2026q1,funding_by_vertical_size,travel,all,2800000.0,$2.8M,OK,
+2026,2026q1,funding_by_vertical_size,video,all,1500000.0,$1.5M,OK,
+2021,2026q2,funding_by_vertical_count,artificial_intelligence,all,50.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,biotech,all,10.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,deeptech,all,33.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,energy,all,11.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,fintech,all,40.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,gaming,all,54.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,healthtech,all,23.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,mobility,all,11.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,saas,all,27.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_count,sustainability,all,7.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,artificial_intelligence,all,28600000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,biotech,all,15000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,deeptech,all,28600000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,fintech,all,68900000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,gaming,all,491500000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,internet_of_things,all,6000000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,marketingtech,all,3100000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,saas,all,10700000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,telecom,all,5300000.0,,UNREADABLE,görsel okuma kaydı yok
+2021,2026q2,funding_by_vertical_size,travel,all,4300000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,artificial_intelligence,all,43.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,biotech,all,8.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,deeptech,all,24.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,energy,all,13.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,fintech,all,40.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,gaming,all,30.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,healthtech,all,28.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,mobility,all,3.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,saas,all,35.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_count,sustainability,all,10.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,artificial_intelligence,all,157700000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,biotech,all,4800000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,deeptech,all,31000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,fintech,all,91800000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,gaming,all,116000000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,internet_of_things,all,6700000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,marketingtech,all,125200000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,saas,all,145400000.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,telecom,all,0.0,,UNREADABLE,görsel okuma kaydı yok
+2022,2026q2,funding_by_vertical_size,travel,all,4000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,artificial_intelligence,all,69.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,biotech,all,8.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,deeptech,all,20.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,energy,all,25.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,fintech,all,39.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,gaming,all,50.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,healthtech,all,19.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,mobility,all,15.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,saas,all,38.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_count,sustainability,all,16.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,artificial_intelligence,all,50300000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,biotech,all,4000000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,deeptech,all,7100000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,fintech,all,30200000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,gaming,all,35100000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,internet_of_things,all,9600000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,marketingtech,all,5200000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,saas,all,44400000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,telecom,all,2900000.0,,UNREADABLE,görsel okuma kaydı yok
+2023,2026q2,funding_by_vertical_size,travel,all,1200000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,artificial_intelligence,all,116.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,biotech,all,76.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,deeptech,all,18.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,energy,all,27.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,fintech,all,35.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,gaming,all,28.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,healthtech,all,60.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,mobility,all,13.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,saas,all,40.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_count,sustainability,all,42.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,artificial_intelligence,all,285500000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,biotech,all,8400000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,deeptech,all,7800000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,fintech,all,196900000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,gaming,all,128500000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,internet_of_things,all,28500000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,marketingtech,all,252600000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,saas,all,288400000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,telecom,all,2500000.0,,UNREADABLE,görsel okuma kaydı yok
+2024,2026q2,funding_by_vertical_size,travel,all,1300000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,artificial_intelligence,all,108.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,biotech,all,25.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,deeptech,all,15.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,energy,all,19.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,fintech,all,42.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,gaming,all,37.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,healthtech,all,51.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,mobility,all,13.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,saas,all,28.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_count,sustainability,all,15.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,artificial_intelligence,all,40500000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,biotech,all,4400000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,deeptech,all,15300000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,fintech,all,220400000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,gaming,all,191800000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,internet_of_things,all,1200000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,marketingtech,all,16399999.999999998,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,saas,all,17800000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,telecom,all,12000000.0,,UNREADABLE,görsel okuma kaydı yok
+2025,2026q2,funding_by_vertical_size,travel,all,2200000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,artificial_intelligence,all,33.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,biotech,all,6.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,deeptech,all,1.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,energy,all,3.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,fintech,all,4.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,gaming,all,7.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,healthtech,all,12.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,mobility,all,3.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,saas,all,7.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_count,sustainability,all,4.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,artificial_intelligence,all,28600000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,biotech,all,2700000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,deeptech,all,2400000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,fintech,all,16600000.000000002,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,gaming,all,111400000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,internet_of_things,all,2000000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,marketingtech,all,7600000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,saas,all,9700000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,telecom,all,1500000.0,,UNREADABLE,görsel okuma kaydı yok
+2026,2026q2,funding_by_vertical_size,travel,all,2800000.0,,UNREADABLE,görsel okuma kaydı yok
