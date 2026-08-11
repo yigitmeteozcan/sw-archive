@@ -1,0 +1,371 @@
+data_year,period,period_label,is_comparable_fy,metric,dim_type,dim_value_canon,dim_value_raw,scope,unit,value,report_id,report_year,is_provisional,confidence,source_file,page
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,agritech,Agritech,all,count,1.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,agritech,Agritech,all,count,5.0,2024,2024,FALSE,high,2024.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,agritech,Agritech,all,count,15.0,2024,2024,FALSE,high,2024.pdf,13
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,agritech,Agritech,all,count,9.0,2024,2024,FALSE,high,2024.pdf,13
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,agritech,Agritech,all,count,10.0,2024,2024,FALSE,high,2024.pdf,13
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,agritech,Agritech,all,count,29.0,2024,2024,TRUE,high,2024.pdf,13
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,13.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,15.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,25.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,50.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,43.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,69.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,116.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,108.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,artificial_intelligence,Artificial intelligence,all,count,33.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,2.0,2018,2018,TRUE,high,2018.pdf,8
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,4.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,5.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,10.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,8.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,8.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,76.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,25.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,biotech,Biotech,all,count,6.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,blockchain,Blockchain,all,count,6.0,2021,2021,TRUE,high,2021.pdf,9
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,climatetech,Climatetech,all,count,7.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,climatetech,Climatetech,all,count,8.0,2023,2023,FALSE,high,2023.pdf,15
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,climatetech,Climatetech,all,count,8.0,2023,2023,FALSE,high,2023.pdf,15
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,climatetech,Climatetech,all,count,21.0,2023,2023,FALSE,high,2023.pdf,15
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,climatetech,Climatetech,all,count,22.0,2023,2023,FALSE,high,2023.pdf,15
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,climatetech,Climatetech,all,count,25.0,2023,2023,TRUE,high,2023.pdf,15
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,12.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,12.0,2023,2023,FALSE,high,2023.pdf,15
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,17.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,33.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,24.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,20.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,18.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,15.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,deeptech,Deeptech,all,count,1.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,ecommerce,Ecommerce,all,count,8.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,ecommerce,Ecommerce,all,count,6.0,2023,2023,FALSE,high,2023.pdf,15
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,ecommerce,Ecommerce,all,count,11.0,2023,2023,FALSE,high,2023.pdf,15
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,ecommerce,Ecommerce,all,count,17.0,2023,2023,FALSE,high,2023.pdf,15
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,ecommerce,Ecommerce,all,count,18.0,2023,2023,FALSE,high,2023.pdf,15
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,ecommerce,Ecommerce,all,count,21.0,2023,2023,TRUE,high,2023.pdf,15
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,edtech,Education,all,count,9.0,2020,2020,TRUE,high,2020.pdf,14
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,6.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,5.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,9.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,11.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,13.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,25.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,27.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,energy,Energy,all,count,19.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,energy,Energy,all,count,3.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,18.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,19.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,25.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,40.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,40.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,39.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,35.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,42.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,fintech,Fintech,all,count,4.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,foodtech,Foodtech,all,count,6.0,2018,2018,TRUE,high,2018.pdf,8
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,8.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,6.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,20.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,54.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,30.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,50.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,28.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,37.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,gaming,Gaming,all,count,7.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,grocery_delivery,Grocery Delivery,all,count,1.0,2019,2019,TRUE,high,2019.pdf,7
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,grocery_delivery,Grocery Delivery,all,count,1.0,2020,2020,TRUE,high,2020.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,grocery_delivery,Grocery Delivery,all,count,4.0,2021,2021,TRUE,high,2021.pdf,9
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,grocery_delivery,Grocery Delivery,all,count,3.0,2022,2022,TRUE,high,2022.pdf,11
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,8.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,7.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,16.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,23.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,28.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,19.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,60.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,51.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,healthtech,Healthtech,all,count,12.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,internet_of_things,Internet of things,all,count,10.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,internet_of_things,Internet of things,all,count,3.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,internet_of_things,Internet of things,all,count,9.0,2024,2024,FALSE,high,2024.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,internet_of_things,Internet of things,all,count,8.0,2024,2024,FALSE,high,2024.pdf,13
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,internet_of_things,Internet of things,all,count,15.0,2024,2024,FALSE,high,2024.pdf,13
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,internet_of_things,Internet of things,all,count,17.0,2024,2024,FALSE,high,2024.pdf,13
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,internet_of_things,Internet of things,all,count,17.0,2024,2024,TRUE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,logistics,Logistics,all,count,10.0,2020,2020,TRUE,high,2020.pdf,14
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,marketingtech,Marketing-tech,all,count,2.0,2018,2018,TRUE,high,2018.pdf,8
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,marketingtech,Marketingtech,all,count,6.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,marketingtech,Marketingtech,all,count,4.0,2025,2025,FALSE,high,2025.pdf,13
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,marketingtech,Marketingtech,all,count,12.0,2025,2025,FALSE,high,2025.pdf,13
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,marketingtech,Marketingtech,all,count,13.0,2025,2025,FALSE,high,2025.pdf,13
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,marketingtech,Marketingtech,all,count,10.0,2025,2025,FALSE,high,2025.pdf,13
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,marketingtech,Marketingtech,all,count,10.0,2025,2025,TRUE,high,2025.pdf,13
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,marketplace,Marketplace,all,count,6.0,2018,2018,TRUE,high,2018.pdf,8
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,marketplace,Marketplace,all,count,10.0,2019,2019,TRUE,high,2019.pdf,7
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,marketplace,Marketplace,all,count,12.0,2020,2020,TRUE,high,2020.pdf,14
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,marketplace,Marketplace,all,count,24.0,2022,2022,TRUE,high,2022.pdf,11
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,mobility,Mobility,all,count,2.0,2019,2019,TRUE,high,2019.pdf,7
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,mobility,Mobility,all,count,11.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,mobility,Mobility,all,count,3.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,mobility,Mobility,all,count,15.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,mobility,Mobility,all,count,13.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,mobility,Mobility,all,count,13.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,mobility,Mobility,all,count,3.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,on_demand_mobile,On Demand Mobile,all,count,2.0,2020,2020,TRUE,high,2020.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,proptech,Proptech,all,count,2.0,2021,2021,TRUE,high,2021.pdf,9
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,regtech,Regtech,all,count,1.0,2018,2018,TRUE,high,2018.pdf,8
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,restaurant,Restaurant,all,count,5.0,2018,2018,TRUE,high,2018.pdf,8
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,retailtech,Retail-tech,all,count,6.0,2018,2018,TRUE,high,2018.pdf,8
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,retailtech,Retailtech,all,count,8.0,2020,2020,TRUE,high,2020.pdf,14
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,17.0,2023,2023,FALSE,high,2023.pdf,15
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,17.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,36.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,27.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,35.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,38.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,40.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,saas,SaaS,all,count,28.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,saas,SaaS,all,count,7.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,smart_city,Smart city,all,count,4.0,2018,2018,TRUE,high,2018.pdf,8
+2019,FY,2019,TRUE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,8.0,2024,2024,FALSE,high,2024.pdf,13
+2020,FY,2020,TRUE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,4.0,2025,2025,FALSE,high,2025.pdf,13
+2021,FY,2021,TRUE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,7.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2022,FY,2022,TRUE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,10.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2023,FY,2023,TRUE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,16.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2024,FY,2024,TRUE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,42.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2025,FY,2025,TRUE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,15.0,2026q2,2026,FALSE,high,2026q2.pdf,7
+2026,H1,2026-H1,FALSE,funding_by_vertical_count,vertical,sustainability,Sustainability,all,count,4.0,2026q2,2026,TRUE,high,2026q2.pdf,7
+2018,FY,2018,TRUE,funding_by_vertical_count,vertical,travel,Travel,all,count,2.0,2018,2018,TRUE,high,2018.pdf,8
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,9500000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,4800000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,63200000.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,28600000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,157700000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,50300000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,285500000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,40500000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,28600000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,artificial_intelligence,Artificial intelligence,all,usd,11400000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,autotech,Autotech,all,usd,2300000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,autotech,Autotech,all,usd,3200000.0,2024,2024,FALSE,high,2024.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,autotech,Autotech,all,usd,75300000.0,2024,2024,FALSE,high,2024.pdf,12
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,autotech,Autotech,all,usd,37800000.0,2024,2024,FALSE,high,2024.pdf,12
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,autotech,Autotech,all,usd,18400000.0,2024,2024,FALSE,high,2024.pdf,12
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,autotech,Autotech,all,usd,28700000.0,2024,2024,TRUE,high,2024.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,biotech,Biotech,all,usd,15000000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,biotech,Biotech,all,usd,4800000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,biotech,Biotech,all,usd,4000000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,biotech,Biotech,all,usd,8400000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,biotech,Biotech,all,usd,4400000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,biotech,Biotech,all,usd,2700000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,blockchain,Blockchain,all,usd,0.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,blockchain,Blockchain,all,usd,300000.0,2024,2024,FALSE,high,2024.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,blockchain,Blockchain,all,usd,39700000.0,2024,2024,FALSE,high,2024.pdf,12
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,blockchain,Blockchain,all,usd,17200000.0,2024,2024,FALSE,high,2024.pdf,12
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,blockchain,Blockchain,all,usd,5300000.0,2024,2024,FALSE,high,2024.pdf,12
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,blockchain,Blockchain,all,usd,82400000.0,2024,2024,TRUE,high,2024.pdf,12
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,cybersecurity,Cybersecurity,all,usd,6900000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,cybersecurity,Cybersecurity,all,usd,400000.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,cybersecurity,Cybersecurity,all,usd,24900000.0,2025,2025,FALSE,high,2025.pdf,12
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,cybersecurity,Cybersecurity,all,usd,14300000.0,2025,2025,FALSE,high,2025.pdf,12
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,cybersecurity,Cybersecurity,all,usd,11200000.0,2025,2025,FALSE,high,2025.pdf,12
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,cybersecurity,Cybersecurity,all,usd,73600000.0,2025,2025,FALSE,high,2025.pdf,12
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,cybersecurity,Cybersecurity,all,usd,19500000.0,2025,2025,TRUE,high,2025.pdf,12
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,deeptech,Deep Tech,all,usd,3300000.0,2019,2019,TRUE,high,2019.pdf,7
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,deeptech,Deeptech,all,usd,8300000.000000001,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,deeptech,Deeptech,all,usd,28600000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,deeptech,Deeptech,all,usd,31000000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,deeptech,Deeptech,all,usd,7100000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,deeptech,Deeptech,all,usd,7800000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,deeptech,Deeptech,all,usd,15300000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,deeptech,Deeptech,all,usd,2400000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,ecommerce,Ecommerce,all,usd,8100000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,ecommerce,Ecommerce,all,usd,1400000.0,2023,2023,FALSE,high,2023.pdf,14
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,ecommerce,Ecommerce,all,usd,8000000.0,2023,2023,FALSE,high,2023.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,ecommerce,Ecommerce,all,usd,29300000.0,2023,2023,FALSE,high,2023.pdf,14
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,ecommerce,Ecommerce,all,usd,33900000.0,2023,2023,FALSE,high,2023.pdf,14
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,ecommerce,Ecommerce,all,usd,18200000.0,2023,2023,TRUE,high,2023.pdf,14
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,edtech,Education,all,usd,3000000.0,2020,2020,TRUE,high,2020.pdf,14
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,1600000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,900000.0,2023,2023,FALSE,high,2023.pdf,14
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,2500000.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,4600000.0,2025,2025,FALSE,high,2025.pdf,12
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,11600000.0,2025,2025,FALSE,high,2025.pdf,12
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,19200000.0,2025,2025,FALSE,high,2025.pdf,12
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,3400000.0,2025,2025,FALSE,high,2025.pdf,12
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,energy,Energy,all,usd,11400000.0,2025,2025,TRUE,high,2025.pdf,12
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,16500000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,4300000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,25900000.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,68900000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,91800000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,30200000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,196900000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,220400000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,16600000.000000002,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,fintech,Fintech,all,usd,10000000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,foodtech,Foodtech,all,usd,1000000.0,2018,2018,TRUE,high,2018.pdf,8
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,1800000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,8400000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,20000000.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,491500000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,116000000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,35100000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,128500000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,191800000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,111400000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,gaming,Gaming,all,usd,34400000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,grocery_delivery,Grocery delivery,all,usd,1200000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,grocery_delivery,Grocery delivery,all,usd,38100000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,grocery_delivery,Grocery delivery,all,usd,0.0,2024,2024,FALSE,high,2024.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,grocery_delivery,Grocery delivery,all,usd,984400000.0,2024,2024,FALSE,high,2024.pdf,12
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,grocery_delivery,Grocery delivery,all,usd,768200000.0,2024,2024,FALSE,high,2024.pdf,12
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,grocery_delivery,Grocery delivery,all,usd,500300000.0,2024,2024,FALSE,high,2024.pdf,12
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,grocery_delivery,Grocery delivery,all,usd,250000000.0,2024,2024,TRUE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,healthtech,Healthtech,all,usd,22000000.0,2020,2020,TRUE,high,2020.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,healthtech,Healthtech,all,usd,20000000.0,2021,2021,TRUE,high,2021.pdf,9
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,image_process,Image process,all,usd,1100000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,image_process,Image process,all,usd,1000000.0,2023,2023,FALSE,high,2023.pdf,14
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,image_process,Image process,all,usd,2700000.0,2023,2023,FALSE,high,2023.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,image_process,Image process,all,usd,7800000.0,2023,2023,FALSE,high,2023.pdf,14
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,image_process,Image process,all,usd,4500000.0,2023,2023,FALSE,high,2023.pdf,14
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,image_process,Image process,all,usd,19500000.0,2023,2023,TRUE,high,2023.pdf,14
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,internet_of_things,IoT,all,usd,1300000.0,2018,2018,TRUE,high,2018.pdf,8
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,1500000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,3900000.0,2024,2024,FALSE,high,2024.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,6000000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,6700000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,9600000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,28500000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,1200000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,2000000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,internet_of_things,Internet of things,all,usd,1500000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,logistics,Logistics,all,usd,2000000.0,2020,2020,TRUE,high,2020.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,1700000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,33299999.999999996,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,3100000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,125200000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,5200000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,252600000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,16399999.999999998,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,7600000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,marketingtech,Marketingtech,all,usd,6600000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,marketplace,Marketplace,all,usd,8400000.0,2019,2019,TRUE,high,2019.pdf,7
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,marketplace,Marketplace,all,usd,4700000.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,marketplace,Marketplace,all,usd,70500000.0,2025,2025,FALSE,high,2025.pdf,12
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,marketplace,Marketplace,all,usd,60100000.0,2025,2025,FALSE,high,2025.pdf,12
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,marketplace,Marketplace,all,usd,6600000.0,2025,2025,FALSE,high,2025.pdf,12
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,marketplace,Marketplace,all,usd,8700000.0,2025,2025,FALSE,high,2025.pdf,12
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,marketplace,Marketplace,all,usd,70400000.0,2025,2025,TRUE,high,2025.pdf,12
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,mobility,Mobility,all,usd,8000000.0,2019,2019,TRUE,high,2019.pdf,7
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,mobility,Mobility,all,usd,32299999.999999996,2026q1,2026,FALSE,high,2026q1.pdf,9
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,mobility,Mobility,all,usd,3200000.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,mobility,Mobility,all,usd,17500000.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,mobility,Mobility,all,usd,5400000.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,mobility,Mobility,all,usd,6700000.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,mobility,Mobility,all,usd,1000000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,on_demand_mobile,On Demand Mobile,all,usd,11000000.0,2020,2020,TRUE,high,2020.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,proptech,Proptech,all,usd,66000000.0,2021,2021,TRUE,high,2021.pdf,9
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,restaurant,Restaurant,all,usd,2200000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,restaurant,Restaurant,all,usd,2700000.0,2023,2023,FALSE,high,2023.pdf,14
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,restaurant,Restaurant,all,usd,4000000.0,2023,2023,FALSE,high,2023.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,restaurant,Restaurant,all,usd,7200000.0,2023,2023,FALSE,high,2023.pdf,14
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,restaurant,Restaurant,all,usd,11100000.0,2023,2023,FALSE,high,2023.pdf,14
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,restaurant,Restaurant,all,usd,20100000.0,2023,2023,TRUE,high,2023.pdf,14
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,retailtech,Retailtech,all,usd,2700000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,retailtech,Retailtech,all,usd,2500000.0,2023,2023,FALSE,high,2023.pdf,14
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,retailtech,Retailtech,all,usd,8000000.0,2023,2023,FALSE,high,2023.pdf,14
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,retailtech,Retailtech,all,usd,5900000.0,2023,2023,FALSE,high,2023.pdf,14
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,retailtech,Retailtech,all,usd,17000000.0,2023,2023,FALSE,high,2023.pdf,14
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,retailtech,Retailtech,all,usd,30100000.0,2023,2023,TRUE,high,2023.pdf,14
+2018,FY,2018,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,13100000.0,2023,2023,FALSE,high,2023.pdf,14
+2019,FY,2019,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,5800000.0,2024,2024,FALSE,high,2024.pdf,12
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,54200000.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,10700000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,145400000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,44400000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,288400000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,17800000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,9700000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,saas,SaaS,all,usd,6600000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2020,FY,2020,TRUE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,0.0,2025,2025,FALSE,high,2025.pdf,12
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,5300000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,0.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,2900000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,2500000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,12000000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,1500000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,telecom,Telecom,all,usd,1500000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,travel,Travel,all,usd,4300000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,travel,Travel,all,usd,4000000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,travel,Travel,all,usd,1200000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,travel,Travel,all,usd,1300000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,travel,Travel,all,usd,2200000.0,2026q2,2026,FALSE,high,2026q2.pdf,6
+2026,H1,2026-H1,FALSE,funding_by_vertical_size,vertical,travel,Travel,all,usd,2800000.0,2026q2,2026,TRUE,high,2026q2.pdf,6
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,travel,Travel,all,usd,2800000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2021,FY,2021,TRUE,funding_by_vertical_size,vertical,video,Video,all,usd,1000000.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2022,FY,2022,TRUE,funding_by_vertical_size,vertical,video,Video,all,usd,1100000.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2023,FY,2023,TRUE,funding_by_vertical_size,vertical,video,Video,all,usd,200000.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2024,FY,2024,TRUE,funding_by_vertical_size,vertical,video,Video,all,usd,0.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2025,FY,2025,TRUE,funding_by_vertical_size,vertical,video,Video,all,usd,0.0,2026q1,2026,FALSE,high,2026q1.pdf,9
+2026,Q1,2026-Q1,FALSE,funding_by_vertical_size,vertical,video,Video,all,usd,1500000.0,2026q1,2026,TRUE,high,2026q1.pdf,9
+2010,FY,2010,TRUE,total_deal_count,none,,,all,count,13.0,2024,2024,FALSE,high,2024.pdf,4
+2011,FY,2011,TRUE,total_deal_count,none,,,all,count,28.0,2024,2024,FALSE,high,2024.pdf,4
+2012,FY,2012,TRUE,total_deal_count,none,,,all,count,31.0,2024,2024,FALSE,high,2024.pdf,4
+2013,FY,2013,TRUE,total_deal_count,none,,,all,count,77.0,2024,2024,FALSE,high,2024.pdf,4
+2014,FY,2014,TRUE,total_deal_count,none,,,all,count,67.0,2024,2024,FALSE,high,2024.pdf,4
+2015,FY,2015,TRUE,total_deal_count,none,,,all,count,100.0,2025,2025,FALSE,high,2025.pdf,5
+2016,FY,2016,TRUE,total_deal_count,none,,,all,count,156.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2017,FY,2017,TRUE,total_deal_count,none,,,all,count,185.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2018,FY,2018,TRUE,total_deal_count,none,,,all,count,138.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2019,FY,2019,TRUE,total_deal_count,none,,,all,count,132.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2020,FY,2020,TRUE,total_deal_count,none,,,all,count,215.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2021,FY,2021,TRUE,total_deal_count,none,,,all,count,343.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2022,FY,2022,TRUE,total_deal_count,none,,,all,count,356.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2023,FY,2023,TRUE,total_deal_count,none,,,all,count,366.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2024,FY,2024,TRUE,total_deal_count,none,,,all,count,589.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2025,FY,2025,TRUE,total_deal_count,none,,,all,count,388.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2026,H1,2026-H1,FALSE,total_deal_count,none,,,all,count,87.0,2026q2,2026,TRUE,high,2026q2.pdf,4
+2015,FY,2015,TRUE,total_deal_count,none,,,ex_getir_bigg,count,99.0,2025,2025,FALSE,high,2025.pdf,5
+2016,FY,2016,TRUE,total_deal_count,none,,,ex_getir_bigg,count,156.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2017,FY,2017,TRUE,total_deal_count,none,,,ex_getir_bigg,count,185.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2018,FY,2018,TRUE,total_deal_count,none,,,ex_getir_bigg,count,137.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2019,FY,2019,TRUE,total_deal_count,none,,,ex_getir_bigg,count,131.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2020,FY,2020,TRUE,total_deal_count,none,,,ex_getir_bigg,count,215.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2021,FY,2021,TRUE,total_deal_count,none,,,ex_getir_bigg,count,340.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2022,FY,2022,TRUE,total_deal_count,none,,,ex_getir_bigg,count,355.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2023,FY,2023,TRUE,total_deal_count,none,,,ex_getir_bigg,count,365.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2024,FY,2024,TRUE,total_deal_count,none,,,ex_getir_bigg,count,254.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2025,FY,2025,TRUE,total_deal_count,none,,,ex_getir_bigg,count,214.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2026,H1,2026-H1,FALSE,total_deal_count,none,,,ex_getir_bigg,count,58.0,2026q2,2026,TRUE,high,2026q2.pdf,4
+2010,FY,2010,TRUE,total_deal_size,none,,,all,usd,20000000.0,2024,2024,FALSE,high,2024.pdf,4
+2011,FY,2011,TRUE,total_deal_size,none,,,all,usd,60000000.0,2024,2024,FALSE,high,2024.pdf,4
+2012,FY,2012,TRUE,total_deal_size,none,,,all,usd,33000000.0,2024,2024,FALSE,high,2024.pdf,4
+2013,FY,2013,TRUE,total_deal_size,none,,,all,usd,79000000.0,2024,2024,FALSE,high,2024.pdf,4
+2014,FY,2014,TRUE,total_deal_size,none,,,all,usd,37000000.0,2024,2024,FALSE,high,2024.pdf,4
+2015,FY,2015,TRUE,total_deal_size,none,,,all,usd,70000000.0,2025,2025,FALSE,high,2025.pdf,5
+2016,FY,2016,TRUE,total_deal_size,none,,,all,usd,58000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2017,FY,2017,TRUE,total_deal_size,none,,,all,usd,116000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2018,FY,2018,TRUE,total_deal_size,none,,,all,usd,84000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2019,FY,2019,TRUE,total_deal_size,none,,,all,usd,103000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2020,FY,2020,TRUE,total_deal_size,none,,,all,usd,155000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2021,FY,2021,TRUE,total_deal_size,none,,,all,usd,1900000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2022,FY,2022,TRUE,total_deal_size,none,,,all,usd,1400000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2023,FY,2023,TRUE,total_deal_size,none,,,all,usd,738000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2024,FY,2024,TRUE,total_deal_size,none,,,all,usd,1100000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2025,FY,2025,TRUE,total_deal_size,none,,,all,usd,609000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2026,H1,2026-H1,FALSE,total_deal_size,none,,,all,usd,172000000.0,2026q2,2026,TRUE,high,2026q2.pdf,4
+2015,FY,2015,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,70000000.0,2025,2025,FALSE,high,2025.pdf,5
+2016,FY,2016,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,58000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2017,FY,2017,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,116000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2018,FY,2018,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,83000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2019,FY,2019,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,65000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2020,FY,2020,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,155000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2021,FY,2021,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,880000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2022,FY,2022,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,593000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2023,FY,2023,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,238000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2024,FY,2024,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,814000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2025,FY,2025,TRUE,total_deal_size,none,,,ex_getir_bigg,usd,605000000.0,2026q2,2026,FALSE,high,2026q2.pdf,4
+2026,H1,2026-H1,FALSE,total_deal_size,none,,,ex_getir_bigg,usd,171000000.0,2026q2,2026,TRUE,high,2026q2.pdf,4
