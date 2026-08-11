@@ -1,0 +1,62 @@
+raw_name,canonical_name,first_seen_report,comparable_from,notes
+Artificial Intelligence,artificial_intelligence,2018,2018,2018 tek-yıl snapshot; sonra AI kısaltmasına döner
+AI,artificial_intelligence,2019,2018,2019-2022 kısaltma
+Artificial intelligence,artificial_intelligence,2023,2018,2023+ standart yazım; 2023 p15 serisi 2018'e geri gider
+Game,gaming,2020,2018,
+GAME,gaming,2020,2018,2020 p5 founded-verticals sayfası ALL-CAPS
+Gaming,gaming,2022,2018,2022+ standart yazım
+GAMING,gaming,2022,2018,2022 p23 founded ALL-CAPS
+Deep Tech,deeptech,2019,2018,boşluklu yazım; yalnız 2019
+Deeptech,deeptech,2020,2018,
+DEEPTECH,deeptech,2020,2018,founded ALL-CAPS
+Ecommerce,ecommerce,2018,2018,
+ECOMMERCE,ecommerce,2020,2018,founded ALL-CAPS
+e-commerce,ecommerce,2021,2018,yalnız düzyazıda (2021 p9); grafik etiketi değil
+Marketing-tech,marketingtech,2018,2019,tireli yazım; 2018 snapshot
+Marketingtech,marketingtech,2020,2019,2024 p12 serisi 2019'a geri gider
+Retail-tech,retailtech,2018,2018,tireli yazım
+Retailtech,retailtech,2020,2018,2023 p14 serisi 2018'e geri gider
+IoT,internet_of_things,2018,2018,kısaltma
+Internet of things,internet_of_things,2023,2018,2023 p15 serisi 2018'e geri gider
+Grocery Delivery,grocery_delivery,2019,2018,
+Grocery delivery,grocery_delivery,2023,2018,küçük harf varyantı
+SaaS,saas,2018,2018,
+SAAS,saas,2020,2018,founded ALL-CAPS
+Fintech,fintech,2018,2018,
+FINTECH,fintech,2020,2018,founded ALL-CAPS
+Healthtech,healthtech,2020,2018,
+HEALTHTECH,healthtech,2020,2018,founded ALL-CAPS
+Energy,energy,2023,2018,funded tarafında ilk 2023'te
+ENERGY,energy,2020,2018,founded ALL-CAPS
+Marketplace,marketplace,2018,2020,2025 p12 serisi 2020'ye geri gider
+MARKETPLACE,marketplace,2020,2020,founded ALL-CAPS
+Sustainability,sustainability,2024,2019,2024 p13 serisi 2019'a geri gider
+SUSTAINABILITY,sustainability,2022,2019,founded ALL-CAPS
+Biotech,biotech,2018,2019,2018 snapshot; 2024 p13 serisi 2019'a geri gider
+Travel,travel,2018,2021,2018 snapshot; 2026q1 p9 serisi 2021'e geri gider
+cybersecurity,cybersecurity,2021,2019,2021'de yalnız düzyazı
+Cybersecurity,cybersecurity,2024,2019,2024 p12 serisi 2019'a geri gider
+Blockchain,blockchain,2021,2019,2024 p12 serisi 2019'a geri gider
+autotech,autotech,2021,2019,yalnız düzyazı (2021 p9)
+Autotech,autotech,2024,2019,2024 p12 serisi 2019'a geri gider
+agritech,agritech,2021,2019,yalnız düzyazı (2021 p9)
+Agritech,agritech,2024,2019,2024 p13 serisi 2019'a geri gider
+Telecom,telecom,2025,2020,
+Restaurant,restaurant,2018,2018,2018 snapshot; 2023 p14 serisi 2018'e geri gider
+Image process,image_process,2023,2018,
+Logistics,logistics,2020,2020,yalnız 2020 snapshot
+Mobility,mobility,2019,2021,2019 snapshot; 2026q1 p9 serisi 2021'e geri gider
+Proptech,proptech,2021,2021,yalnız 2021 snapshot
+Regtech,regtech,2018,2018,yalnız 2018 snapshot
+Smart city,smart_city,2018,2018,yalnız 2018 snapshot
+GROUP BUYING,group_buying,2020,2010,founded sayfası; 2010 tag'i, sonra tamamen kayboluyor
+Metaverse,metaverse,2022,2022,yalnız düzyazı (2022 p11)
+Video,video,2026q1,2021,
+Robotics,robotics,2026q1,2021,FLAG: 2026q1 p10 yıl başlıkları kaymış (aşağıya bak)
+Climatetech,climatetech,2023,2018,KARAR: AYRI kalsın — Sustainability ile BİRLEŞTİRİLMEDİ. Veri karşı çıktı: 2021'de Climatetech 21 vs Sustainability 7 deal, 2022'de 22 vs 10. Yeniden adlandırma olsaydı geri-seri örtüşürdü; ikisi farklı kapsamda tag
+Education,edtech,2020,2020,KARAR: EDTECH ile birleştirildi (aynı raporun p14/p5 yazım farkı)
+EDTECH,edtech,2020,2020,founded ALL-CAPS
+edtech,edtech,2021,2020,yalnız düzyazı (2021 p9)
+On Demand Mobile,on_demand_mobile,2020,2020,KARAR: AYRI kalsın — Mobility ile birleştirilmedi; tek görünüm (2020 p14)
+Foodtech,foodtech,2018,2018,KARAR: AYRI kalsın — Restaurant ile birleştirilmedi; 2018'de ikisi aynı sayfada ayrı listeleniyor
+e-commerce enablers,ecommerce_enablers,2021,2021,KARAR: AYRI kalsın — Ecommerce'den ayrı tag; yalnız düzyazı (2021 p9)

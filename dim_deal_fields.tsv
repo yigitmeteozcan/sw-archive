@@ -1,0 +1,92 @@
+report_id	deals_field	raw_label	present	note
+2015q1	startup	startup	yes
+2015q1	round_type	type	yes	Series A/B/C, seed
+2015q1	amount_usd	amount	yes	$1,234,567 biçimi (virgüllü)
+2015q1	amount_status	—	partial	N/A = tutar yok; (est) eki yok
+2015q1	verticals_raw	—	no	vertical kolonu YOK
+2015q1	investors	Investors	yes
+2015q1	investor_types	(P)(VC)(BAN)(PE)	yes	isim sonunda parantezli kod
+2015q1	city	—	no
+2015q1	_date	date	yes	ŞEMA DIŞI — deals.csv'de karşılığı yok
+2015q3	startup	Startup	yes
+2015q3	round_type	Type	yes	seed, Series A
+2015q3	amount_usd	Amount	yes	$85.000 biçimi (noktalı)
+2015q3	amount_status	—	partial
+2015q3	verticals_raw	Vertical	yes	tekil tag
+2015q3	investors	Investor	yes	tekil başlık, çoğul içerik
+2015q3	investor_types	(P)(VC)(BAN)(PE)	yes
+2015q3	city	—	no
+2015q4	startup	Startup	yes
+2015q4	round_type	Funding	yes	Pre-seed, seed, Series A/B
+2015q4	amount_usd	Amount ($)	yes	3.000.000 (para birimi başlıkta)
+2015q4	amount_status	(est)	yes	tutar hücresinde "(est)" eki
+2015q4	verticals_raw	Vertical	yes	çoklu tag virgüllü
+2015q4	investors	Investors	yes
+2015q4	investor_types	(P)(VC)(BAN)(PE)(FI)(AF)	yes	(AF)=accelerator fund GİRİYOR
+2015q4	city	City	yes	GİRİYOR
+2016q1	startup	Startup	yes
+2016q1	round_type	Funding Type	yes	başlık "Funding"→"Funding Type"
+2016q1	amount_usd	Amount ($)	yes
+2016q1	amount_status	(est)	yes
+2016q1	verticals_raw	Vertical	yes
+2016q1	investors	Investors	yes
+2016q1	investor_types	(P)(VC)(BAN)(FI)	yes
+2016q1	city	City	yes
+2016q2	startup	Startup	yes
+2016q2	round_type	Type	yes	pre-seed, seed, Series A/B
+2016q2	amount_usd	Amount Raised ($)	yes	başlık değişti; N/A = açıklanmamış
+2016q2	amount_status	N/A	partial	(est) eki kayboldu
+2016q2	verticals_raw	Tags	yes	"Vertical"→"Tags" AD DEĞİŞİMİ
+2016q2	investors	Investor	yes
+2016q2	investor_types	(BAN)(VC)(CVC)(Angel)	yes	(Angel) GİRİYOR, (P) ile eşanlamlı
+2016q2	city	City	yes
+2016q3	startup	Startup	yes
+2016q3	round_type	Round Type	yes	seed, Series A
+2016q3	amount_usd	Amount Raised ($)	yes
+2016q3	amount_status	—	partial
+2016q3	verticals_raw	Tags	yes
+2016q3	investors	Investors	yes
+2016q3	investor_types	(VC)(BAN)(P)	yes
+2016q3	city	—	no	ÇIKIYOR (2015q4'te girmişti)
+2016q3	_date	Date	yes	ŞEMA DIŞI — 2015q1'den sonra tek dönüş
+2016q3	_post_money_val	Post-Money Val. ($)	yes	ŞEMA DIŞI — yalnız bu raporda
+2018q1	startup	(kart adı)	yes	başlıksız kart ızgarası, pozisyonel
+2018q1	round_type	—	no	ÇIKIYOR
+2018q1	amount_usd	(kart değeri)	yes	$1M / $500K kısaltmalı; "-" = açıklanmamış
+2018q1	amount_status	—	no
+2018q1	verticals_raw	—	no	ÇIKIYOR
+2018q1	investors	—	no	ÇIKIYOR
+2018q1	investor_types	—	no
+2018q1	city	—	no
+2018q2	startup	(kart adı)	yes	pozisyonel
+2018q2	round_type	—	no
+2018q2	amount_usd	(kart değeri)	yes
+2018q2	amount_status	—	no
+2018q2	verticals_raw	—	no
+2018q2	investors	—	no
+2018q2	investor_types	—	no
+2018q2	city	—	no
+2019q1	startup	(kart adı)	yes	pozisyonel
+2019q1	round_type	(kart, "tutar - tip")	yes	GERİ DÖNÜYOR; Seed/Series A/B
+2019q1	amount_usd	(kart, "tutar - tip")	yes	tutar ve tip AYNI hücrede, " - " ayraçlı
+2019q1	amount_status	N/A	partial
+2019q1	verticals_raw	—	no
+2019q1	investors	(kart alt bandı)	yes	GERİ DÖNÜYOR, düz isim
+2019q1	investor_types	—	no	kod eki YOK, yalnız isim
+2019q1	city	—	no
+2019q2	startup	(kart adı)	yes
+2019q2	round_type	(kart, "tutar - tip")	yes	Seed/Series A/Corporate Round
+2019q2	amount_usd	(kart, "tutar - tip")	yes
+2019q2	amount_status	N/A	partial
+2019q2	verticals_raw	—	no
+2019q2	investors	(kart alt bandı)	yes	düz isim
+2019q2	investor_types	—	no
+2019q2	city	—	no
+2019q3	startup	(kart adı)	yes
+2019q3	round_type	—	no	TEKRAR ÇIKIYOR
+2019q3	amount_usd	(kart değeri)	yes	N/A = açıklanmamış
+2019q3	amount_status	N/A	partial
+2019q3	verticals_raw	—	no
+2019q3	investors	(kart alt bandı)	yes	düz isim
+2019q3	investor_types	—	no
+2019q3	city	—	no
